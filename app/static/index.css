@@ -4,84 +4,55 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Background */
-.background {
-  position: relative;
-  text-align: center;
-}
-
-/* Navbar */
-
+/* Navigation */
 nav {
-  display: flex;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    
 }
 
-.top-left {
-  position: absolute;
-  top: 8px;
-  right: 16px;
+.menu{
+    width: 375px;
+    display: flex;
 }
 
-.top-right {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-  color: #6070ff;
+
+.logo{
+    flex: 1;
+    font-weight: 700;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+}
+.logo a{
+    color: #6070FF;
+}
+.logo, .hamburger-menu{
+    padding: 10px;
 }
 
-.menu {
-  width: 35px;
-  height: 3px;
-  margin: 6px 0;
-  background: #6070ff;
+#right{
+    text-align: start;
+    align-self: flex-start;
 }
 
-/* Headline */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.menu-icon {
+    text-align: end;
+    width: 30px;
+    height: 3px;
+    margin: 4px 0;
+    background: #6070FF;
 }
 
-.primary-text {
-  width: 100vh;
-  text-align: start;
-  color: #091e42;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 58px;
-  line-height: 60px;
-  letter-spacing: 0.37px;
-  left: auto;
+ul, li {
+    list-style-type: none;
+    text-decoration: none;
 }
 
-.about-text {
-  margin-top: -50px;
-  text-align: start;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  color: #344563;
-}
-
-.connect {
-  text-align: start;
-}
-
-#connect-text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
-}
-
-.social-icons {
-  text-align: start;
-  gap: 15px;
-}
-
-.social-icons svg {
-  gap: 16px;
+a {
+    text-decoration: none;
 }
