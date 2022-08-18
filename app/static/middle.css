@@ -44,6 +44,14 @@ body {
   height: 220px;
 }
 
+.section-four-bg {
+  background: url("/app/static/images/Snapshoot-Portfolio_3.svg");
+  width: 295px;
+  height: 220px;
+}
+
+
+
 /* Section title */
 .section-title {
   margin-bottom: 10px;
