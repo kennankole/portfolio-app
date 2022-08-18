@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
 body {
-  font-family: 'Poppins';
+  font-family: 'Poppins' sans-serif;
 }
 
 /* Background */
@@ -10,6 +11,7 @@ body {
 }
 
 /* Navbar*/
+
 nav {
   display: flex;
 }
@@ -23,14 +25,14 @@ nav {
   position: absolute;
   top: 8px;
   left: 16px;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .menu {
-    width: 35px;
-    height: 3px;
-    margin: 6px 0;
-    background: #6070FF;
+  width: 35px;
+  height: 3px;
+  margin: 6px 0;
+  background: #6070ff;
 }
 
 /* Headline */
@@ -44,8 +46,7 @@ nav {
 .primary-text {
   width: 100vh;
   text-align: start;
-  color: #091E42;  
-  font-family: 'Poppins';
+  color: #091e42;
   font-style: normal;
   font-weight: 700;
   font-size: 58px;
@@ -56,7 +57,6 @@ nav {
 
 .about-text {
   margin-top: -50px;
-  font-family: 'Poppins';
   text-align: start;
   font-style: normal;
   font-weight: 400;
@@ -73,7 +73,7 @@ nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
 .social-icons {
@@ -84,4 +84,3 @@ nav {
 .social-icons svg {
   gap: 16px;
 }
-
