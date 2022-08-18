@@ -10,7 +10,6 @@ body {
   justify-content: center;
 }
 
-
 .middle-section {
   width: 295px;
   height: 36px;
@@ -38,6 +37,7 @@ body {
   width: 295px;
   height: 220px;
 }
+
 .section-three-bg {
   background: url("/app/static/images/Snapshoot-Portfolio_2.svg");
   width: 295px;
@@ -49,8 +49,6 @@ body {
   width: 295px;
   height: 220px;
 }
-
-
 
 /* Section title */
 .section-title {
@@ -74,9 +72,8 @@ body {
   height: 288px;
 }
 
-
 /* Section frame */
-.section-frame{
+.section-frame {
   display: flex;
   align-items: center;
   padding: 0px;
@@ -86,7 +83,7 @@ body {
 }
 
 /* Section text */
-#cannopy{
+#cannopy {
   width: 55px;
   height: 16px;
   color: #344563;
@@ -103,6 +100,7 @@ body {
   line-height: 16px;
   color: #344563;
 }
+
 #here {
   width: 50px;
   height: 50px;
@@ -110,8 +108,8 @@ body {
   color: black;
   display: inline-flex;
 }
- 
-#year{
+
+#year {
   width: 29px;
   height: 16px;
   font-weight: 600;
@@ -132,7 +130,7 @@ body {
 }
 
 /* Section tags */
-.section-tags{
+.section-tags {
   display: flex;
   align-items: center; 
   gap: 16px;
@@ -254,12 +252,12 @@ body {
   height: 15px;
 }
 
-.skills-set{
+.skills-set {
   display: flex;
   gap: 230px;
 }
 
-.frame-works{
+.frame-works {
   gap: 155px;
   display: flex;
 }
