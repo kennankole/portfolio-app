@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
 
 body {
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Background */
@@ -10,11 +10,12 @@ body {
   text-align: center;
 }
 
-/* Navbar*/
+/* Navbar */
 
 nav {
   display: flex;
 }
+
 .top-left {
   position: absolute;
   top: 8px;
