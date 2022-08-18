@@ -11,7 +11,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
-  margin: 20px; 
+  margin: 20px;
 }
 
 .menu {
@@ -24,10 +24,6 @@ header {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-}
-
-.logo a {
-  color: #6070ff;
 }
 
 .logo,
@@ -49,6 +45,11 @@ header {
 }
 
 ul,
+a {
+  color: #6070ff;
+}
+
+ul,
 li {
   list-style-type: none;
   text-decoration: none;
@@ -63,7 +64,6 @@ a {
   width: 375px;
   height: 588px;
   background-image: url("/app/static/images/header-shapes\ mobile.svg");
-
   background-repeat: no-repeat;
   padding: 15px;
 }
@@ -72,12 +72,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-ul,
-li {
-  list-style-type: none;
-  text-decoration: none;
 }
 
 .social {
@@ -90,7 +84,8 @@ li {
   margin-top: -15px;
 }
 
-.fa-brands, .fa-solid {
+.fa-brands,
+.fa-solid {
   color: #505f79;
   font-size: 20px;
 }
@@ -99,7 +94,7 @@ h4 {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8cff;
+  color: #7f8cff;
 }
 
 /* Primary text */
