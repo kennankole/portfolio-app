@@ -136,7 +136,6 @@ body {
   align-items: center;
   gap: 16px;
   padding: 0;
-  /* gap: 8px; */
   width: 203px;
   height: 24px;
 }
@@ -152,7 +151,6 @@ body {
   border: none;
   background: #ebebff;
   border-radius: 8px;
-  /* border: none; */
   padding: 4px 12px;
   align-items: center;
   font-weight: 500;
@@ -285,4 +283,3 @@ body {
   border-top: 2px;
   color: black;
 }
-
