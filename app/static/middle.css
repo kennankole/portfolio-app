@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.middle-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* background images */
+.section-one-bg {
+  background: url("/app/static/images/Snapshoot\ Portfolio\ \(1\).svg");
+  width: 295px;
+  height: 220px;
+}
+
+/* Section title */
+.section-title {
+  margin-bottom: 10px;
+  width: 295px;
+  height: 36px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+/* Section block */
+.section-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 295px;
+  height: 288px;
+}
+
+/* Section works */
+.section-works {
+  width: 295px;
+  height: 36px;
+  display: flex;
+  width: 327px;
+  height: 552px;
+  background: #ffffff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+}
+
+/* Section frame */
+.section-frame{
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 236px;
+  height: 32px
+}
+
+/* Section text */
+#cannopy{
+  width: 55px;
+  height: 16px;
+  color: #344563;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+#backend {
+  width: 88px;
+  height: 16px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+#here {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: black;
+  display: inline-flex;
+}
+ 
+#year{
+  width: 29px;
+  height: 16px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.section-primary-text {
+  width: 295px;
+  height: 76px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  font-weight: 400;
+  margin-top: -15px;
+  margin-bottom: 10px; 
+}
+
+/* Section tags */
+.section-tags{
+  display: flex;
+  align-items: center; 
+  gap: 16px;
+  padding: 0px;
+  gap: 8px;
+  width: 203px;
+  height: 24px;
+}
+
+.section-action {
+  width: 295px;
+  height: 72px;
+  margin-top: 10px;
+}
+
+/* Section buttons */
+.section-tags button {
+  border: none;
+  background: #ebebff;
+  border-radius: 8px;
+  border: none;
+  padding: 4px 12px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.section-action button {
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  left: 0px;
+  top: calc(50% - 48px/2);
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  color: #6070ff;
+  background: #ffffff;
+}
+
+
+
