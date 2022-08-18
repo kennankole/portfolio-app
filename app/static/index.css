@@ -11,7 +11,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
-  margin: 20px;  
+  margin: 20px; 
 }
 
 .menu {
@@ -22,16 +22,16 @@ header {
 .logo {
   flex: 1;
   font-weight: 700;
-  font-weight: 700;
   font-size: 18px;
   line-height: 20px;
 }
 
 .logo a {
-  color: #6070FF;
+  color: #6070ff;
 }
 
-.logo, .hamburger-menu{
+.logo,
+.hamburger-menu {
   padding: 10px;
 }
 
@@ -45,10 +45,11 @@ header {
   width: 30px;
   height: 3px;
   margin: 4px 0;
-  background: #6070FF;
+  background: #6070ff;
 }
 
-ul, li {
+ul,
+li {
   list-style-type: none;
   text-decoration: none;
 }
@@ -58,12 +59,13 @@ a {
 }
 
 /* Headline */
-.background-image{
+.background-image {
   width: 375px;
   height: 588px;
   background-image: url("/app/static/images/header-shapes\ mobile.svg");
-  background-repeat: no-repeat;  
-  padding: 15px; 
+
+  background-repeat: no-repeat;
+  padding: 15px;
 }
 
 .headline {
@@ -72,14 +74,10 @@ a {
   justify-content: center;
 }
 
-ul, li {
+ul,
+li {
   list-style-type: none;
   text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-
 }
 
 .social {
@@ -93,7 +91,7 @@ a {
 }
 
 .fa-brands, .fa-solid {
-  color: #505F79;
+  color: #505f79;
   font-size: 20px;
 }
 
@@ -101,7 +99,7 @@ h4 {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7F8cff;
 }
 
 /* Primary text */
@@ -120,5 +118,4 @@ h4 {
   line-height: 24px;
   color: #344563;
 }
-
 
