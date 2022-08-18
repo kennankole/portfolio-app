@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Poppins';
+}
+
+/* Background */
+.background{
+    position: relative;
+    text-align: center;
+}
+
+/* Navbar*/
+.top-left{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.top-right{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: #6070FF;
+}
+
+.menu{
+    width: 35px;
+    height: 3px;
+    margin: 6px 0;
+    background: #6070FF;
+}
