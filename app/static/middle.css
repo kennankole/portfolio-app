@@ -11,12 +11,12 @@ body {
 }
 
 .middle-section {
-  width: 295px;
-  height: 36px;
+  /* width: 295px;
+  height: 36px; */
   display: flex;
   width: 327px;
   height: 552px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   flex-direction: column;
@@ -52,10 +52,11 @@ body {
 
 /* Section title */
 .section-title {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  margin-top: -15px;
   width: 295px;
   height: 36px;
-  font-size: 32px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 44px;
   color: #172b4d;
@@ -66,7 +67,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 295px;
   height: 288px;
@@ -76,14 +77,14 @@ body {
 .section-frame {
   display: flex;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 236px;
-  height: 32px
+  height: 32px;
 }
 
 /* Section text */
-#cannopy {
+.cannopy {
   width: 55px;
   height: 16px;
   color: #344563;
@@ -92,7 +93,7 @@ body {
   line-height: 16px;
 }
 
-#backend {
+.backend {
   width: 88px;
   height: 16px;
   font-weight: 600;
@@ -109,7 +110,7 @@ body {
   display: inline-flex;
 }
 
-#year {
+.year {
   width: 29px;
   height: 16px;
   font-weight: 600;
@@ -126,16 +127,16 @@ body {
   color: #344563;
   font-weight: 400;
   margin-top: -15px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 /* Section tags */
 .section-tags {
   display: flex;
-  align-items: center; 
+  align-items: center;
   gap: 16px;
-  padding: 0px;
-  gap: 8px;
+  padding: 0;
+  /* gap: 8px; */
   width: 203px;
   height: 24px;
 }
@@ -151,7 +152,7 @@ body {
   border: none;
   background: #ebebff;
   border-radius: 8px;
-  border: none;
+  /* border: none; */
   padding: 4px 12px;
   align-items: center;
   font-weight: 500;
@@ -167,12 +168,12 @@ body {
   gap: 10px;
   width: 124px;
   height: 48px;
-  left: 0px;
-  top: calc(50% - 48px/2);
+  left: 0;
+  top: calc(50% - 48px / 2);
   border: 1px solid #6070ff;
   border-radius: 8px;
   color: #6070ff;
-  background: #ffffff;
+  background: #fff;
 }
 
 /* About me */
@@ -181,7 +182,7 @@ body {
   height: 1263px;
   left: 375px;
   top: 4769px;
-  background: #ffffff;
+  background: #fff;
 }
 
 .about-me-text {
@@ -196,8 +197,8 @@ body {
 .lang {
   width: 327px;
   height: 72px;
-  display: flex; 
-  gap: 150px;  
+  display: flex;
+  gap: 150px;
 }
 
 .lang img {
@@ -209,7 +210,7 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  color: #000;
 }
 
 .languages {
@@ -269,7 +270,7 @@ body {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
 
 .skills-set img {
@@ -279,11 +280,9 @@ body {
   padding: 30px;
 }
 
-.solid{
+.solid {
   width: 327px;
   border-top: 2px;
   color: black;
 }
-
-
 
