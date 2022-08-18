@@ -4,15 +4,37 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.middle-section {
+.section-elements{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+
+.middle-section {
+  width: 295px;
+  height: 36px;
+  display: flex;
+  width: 327px;
+  height: 552px;
+  background: #ffffff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+}
+
 /* background images */
 .section-one-bg {
   background: url("/app/static/images/Snapshoot\ Portfolio\ \(1\).svg");
+  width: 295px;
+  height: 220px;
+}
+
+.section-two-bg {
+  background: url("/app/static/images/Snapshoot-Portfolio_1.svg");
   width: 295px;
   height: 220px;
 }
