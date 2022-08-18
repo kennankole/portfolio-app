@@ -4,7 +4,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.section-elements{
+.section-elements {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,21 +74,6 @@ body {
   height: 288px;
 }
 
-/* Section works */
-.section-works {
-  width: 295px;
-  height: 36px;
-  display: flex;
-  width: 327px;
-  height: 552px;
-  background: #ffffff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  gap: 12px;
-}
 
 /* Section frame */
 .section-frame{
@@ -190,6 +175,116 @@ body {
   border-radius: 8px;
   color: #6070ff;
   background: #ffffff;
+}
+
+/* About me */
+.about-me {
+  width: 375px;
+  height: 1263px;
+  left: 375px;
+  top: 4769px;
+  background: #ffffff;
+}
+
+.about-me-text {
+  padding-top: 60px;
+  margin-bottom: -20px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.lang {
+  width: 327px;
+  height: 72px;
+  display: flex; 
+  gap: 150px;  
+}
+
+.lang img {
+  flex: 1;
+  padding: 30px;
+}
+
+.lang h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 327px;
+  height: 248.15px;
+}
+
+.skills {
+  display: flex;
+  width: 303px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  gap: 25px;
+  padding: 0 10px;
+}
+
+.skills h3 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+}
+
+.abilities {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: 72px;
+}
+
+.frame-works img {
+  flex: 1;
+  padding: 30px;
+  width: 35px;
+  height: 15px;
+}
+
+.skills-set{
+  display: flex;
+  gap: 230px;
+}
+
+.frame-works{
+  gap: 155px;
+  display: flex;
+}
+
+.frame-works h4,
+.skills-set h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.skills-set img {
+  flex: 1;
+  width: 35px;
+  height: 15px;
+  padding: 30px;
+}
+
+.solid{
+  width: 327px;
+  border-top: 2px;
+  color: black;
 }
 
 
