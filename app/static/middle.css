@@ -38,6 +38,11 @@ body {
   width: 295px;
   height: 220px;
 }
+.section-three-bg {
+  background: url("/app/static/images/Snapshoot-Portfolio_2.svg");
+  width: 295px;
+  height: 220px;
+}
 
 /* Section title */
 .section-title {
