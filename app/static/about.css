@@ -44,7 +44,6 @@ body {
 
 .core-skills li {
   display: flex;
-  /* margin-left: -50px; */
   padding: 3px;
 }
 
@@ -52,7 +51,7 @@ body {
 .language.css,
 .language.html {
   gap: 30px;
-  background: #F7f7f9;
+  background: #f7f7f9;
   border-radius: 8px;
   width: 270px;
   font-weight: 900;
