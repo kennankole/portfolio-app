@@ -78,7 +78,7 @@ body {
   display: flex;
   align-items: center;
   padding: 0;
-  gap: 12px;
+  gap: 25px;
   width: 236px;
   height: 32px;
 }
@@ -91,15 +91,19 @@ body {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
+  display: flex;
+  gap: 8px;
 }
 
 .backend {
-  width: 88px;
+  width: 108px;
   height: 16px;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
   color: #344563;
+  display: flex;
+  gap: 9px;
 }
 
 #here {
