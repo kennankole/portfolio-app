@@ -2,6 +2,11 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background: #fcfcff;
+}
+
+section {
+  margin-bottom: 100px;
 }
 
 /* Navigation */
@@ -74,14 +79,17 @@ a {
   justify-content: center;
 }
 
-.social {
-  align-self: flex-start;
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .icons {
   display: flex;
   gap: 20px;
   margin-top: -15px;
+  margin-left: -40px;
 }
 
 .fa-brands,
