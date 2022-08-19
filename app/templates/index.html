@@ -39,11 +39,11 @@
                 <div class="social-media">
                     <h4>LET’S CONNECT</h4>
                     <ul class="icons">
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="#"></a><i class="fa-brands fa-linkedin-in"></i></li>
-                        <li><a href="#"><i class="fa-solid fa-m"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="#"></a><i class="fa-brands fa-linkedin-in"></i></li>
                         <li><a href="#"><img src="/app/static/images/Vector.svg" alt=""></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-m"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -74,11 +74,11 @@
                             no accounts or sign-ups required.
                         </p>
                     </div>
-                    <div class="section-tags">
-                        <button type="submit">html</button>
-                        <button type="submit">css</button>
-                        <button type="submit">javascript</button>
-                    </div>
+                    <ul class="section-tags">
+                        <li>html</li>
+                        <li>css</li>
+                        <li>javascript</li>
+                    </ul>
                     <div class="section-action">
                         <button type="submit">See project</button>
                     </div>
@@ -111,11 +111,11 @@
                             no accounts or sign-ups required.
                         </p>
                     </div>
-                    <div class="section-tags">
-                        <button type="submit">html</button>
-                        <button type="submit">css</button>
-                        <button type="submit">javascript</button>
-                    </div>
+                    <ul class="section-tags">
+                        <li>html</li>
+                        <li>css</li>
+                        <li>javascript</li>
+                    </ul>
                     <div class="section-action">
                         <button type="submit">See project</button>
                     </div>
@@ -148,11 +148,11 @@
                             no accounts or sign-ups required.
                         </p>
                     </div>
-                    <div class="section-tags">
-                        <button type="submit">html</button>
-                        <button type="submit">css</button>
-                        <button type="submit">javascript</button>
-                    </div>
+                    <ul class="section-tags">
+                        <li>html</li>
+                        <li>css</li>
+                        <li>javascript</li>
+                    </ul>
                     <div class="section-action">
                         <button type="submit">See project</button>
                     </div>
@@ -185,11 +185,11 @@
                             no accounts or sign-ups required.
                         </p>
                     </div>
-                    <div class="section-tags">
-                        <button type="submit">html</button>
-                        <button type="submit">css</button>
-                        <button type="submit">javascript</button>
-                    </div>
+                    <ul class="section-tags">
+                        <li>html</li>
+                        <li>css</li>
+                        <li>javascript</li>
+                    </ul>
                     <div class="section-action">
                         <button type="submit">See project</button>
                     </div>
@@ -200,7 +200,7 @@
         <!--About me section-->
         <section class="section-elements">
             <div class="section-about">
-                <div class="section-block about">
+                <div class="section-block">
                     <div class="about-me-text">
                         <h1>About <br> Myself</h1>
                     </div>
@@ -214,35 +214,44 @@
                     <div class="social-media">
                         <h4>LET’S CONNECT</h4>
                         <ul class="icons">
-                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"></a><i class="fa-brands fa-linkedin-in"></i></li>
-                            <li><a href="#"><i class="fa-solid fa-m"></i></a></li>
                             <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a href="#"></a><i class="fa-brands fa-linkedin-in"></i></li>
                             <li><a href="#"><img src="/app/static/images/Vector.svg" alt=""></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-solid fa-m"></i></a></li>
                         </ul>
                     </div>
                     <div class="section-action">
-                        <button type="submit">Get my resume</button>
+                        <button id="resume-btn" type="submit">Get my resume</button>
                     </div>
-                    <div class="lang">
-                        <h4>Languages</h4><img width="15" height="8" src="/app/static/images/Union.svg" alt="">
-                    </div>
-                    
-                    <div class="languages">
-                        <div class="skills"><img src="/app/static/images/js.svg" alt=""><h3>Javascript</h3></div>
-                        <div class="skills"><img src="/app/static/images/html.svg" alt=""><h3>HTML</h3></div>   
-                        <div class="skills"><img src="/app/static/images/css.svg" alt=""><h3>CSS</h3></div>
-                    </div>
-                    <div class="abilities">
-                        <div class="frame-works">
-                            <h4>Frameworks</h4><img src="/app/static/images/arrow.svg" alt="">
-                        </div>
-                        <hr class="solid">
-                        <div class="skills-set">
-                        <h4>Skills</h4><img src="/app/static/images/arrow.svg" alt="">
-                        </div>
-                        <hr class="solid">
-                        
+                    <div class="language-lists">
+                        <ul class="core-skills">
+                            <li class="language-text">
+                                <h5>Languages</h5>
+                                <img src="/app/static/images/Union.svg" alt="">
+                            </li>
+                            <li class="language js">
+                                <img src="/app/static/images/js.svg" alt="">
+                                <h5>Javascript</h5>
+                            </li>
+                            <li class="language html">
+                                <img src="/app/static/images/html.svg" alt="">
+                                <h5>HTML</h5>
+                            </li>
+                            <li class="language css"><img src="/app/static/images/css.svg" alt="">
+                                <h5>CSS</h5>
+                            </li>
+                            <li class="framework frame">
+                                <h5>Frameworks</h5>
+                                <img src="/app/static/images/arrow.svg" alt=""> 
+                            </li>
+                            <hr id="hr-frame">
+                            <li class="frame-skill skillset">
+                                <h5>Skills</h5>
+                                <img src="/app/static/images/arrow.svg" alt=""> 
+                            </li>
+                            <hr id="hr-frame">
+                        </ul>
                     </div>
                 </div>
             </div>

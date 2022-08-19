@@ -11,8 +11,6 @@ body {
 }
 
 .middle-section {
-  /* width: 295px;
-  height: 36px; */
   display: flex;
   width: 327px;
   height: 552px;
@@ -151,14 +149,14 @@ body {
 }
 
 /* Section buttons */
-.section-tags button {
+.section-tags li {
   border: none;
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
   align-items: center;
-  font-weight: 500;
-  font-size: 12px;
+  font-weight: 600;
+  font-size: 15px;
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070ff;
@@ -170,119 +168,38 @@ body {
   gap: 10px;
   width: 124px;
   height: 48px;
-  left: 0;
-  top: calc(50% - 48px / 2);
-  border: 1px solid #6070ff;
   border-radius: 8px;
   color: #6070ff;
   background: #fff;
-}
-
-/* About me */
-.about-me {
-  width: 375px;
-  height: 1263px;
-  left: 375px;
-  top: 4769px;
-  background: #fff;
-}
-
-.about-me-text {
-  padding-top: 60px;
-  margin-bottom: -20px;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 52px;
-  color: #172b4d;
-}
-
-.lang {
-  width: 327px;
-  height: 72px;
-  display: flex;
-  gap: 150px;
-}
-
-.lang img {
-  flex: 1;
-  padding: 30px;
-}
-
-.lang h4 {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000;
-}
-
-.languages {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  width: 327px;
-  height: 248.15px;
-}
-
-.skills {
-  display: flex;
-  width: 303px;
-  height: 66.72px;
-  background: #f7f7f9;
+  left: 100px;
+  border: 1px solid #7f8cff;
   border-radius: 8px;
-  margin-left: -25px;
-}
-
-.skills h3 {
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 20px;
-  color: #253858;
-}
-
-.abilities {
-  display: flex;
-  flex-direction: column;
-  width: 327px;
-  height: 72px;
-}
-
-.frame-works img {
-  flex: 1;
-  padding: 30px;
-  width: 35px;
-  height: 15px;
-}
-
-.skills-set {
-  display: flex;
-  gap: 230px;
-}
-
-.frame-works {
-  gap: 105px;
-  display: flex;
-}
-
-.frame-works h4,
-.skills-set h4 {
-  font-weight: 700;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #000;
+  font-weight: 600;
 }
 
-.skills-set img {
-  flex: 1;
-  width: 35px;
-  height: 15px;
-  padding: 30px;
+#resume-btn {
+  padding: 12px;
+  gap: 10px;
+  width: 162px;
+  height: 48px;
+  border: 1px solid #6070FF;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
 }
 
-.solid {
-  width: 327px;
-  border-top: 2px;
-  color: black;
+.section-action button:hover {
+  background-color: #6070ff;
+  color: #fff;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.section-action button:active {
+  background: #2230d2;
+  border-radius: 8px;
+  color: #fff;
 }

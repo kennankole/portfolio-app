@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 .section-about {
   display: flex;
   width: 375px;
@@ -10,103 +17,73 @@
   gap: 12px;
 }
 
+.about-me {
+  width: 375px;
+  height: 1363px;
+  left: 375px;
+  top: 4769px;
+  background: #fff;
+}
+
 .about-me-text {
   padding-top: 60px;
   margin-bottom: -20px;
   font-weight: 700;
   font-size: 30px;
   line-height: 52px;
-  color: #172b4d;
+  color: #172b45;
 }
 
-.lang {
-  width: 327px;
-  height: 72px;
+.language-lists {
+  display: grid;
+  justify-items: start;
+  width: 300px;
+  height: 464.15px;
+  margin-left: -50px;
+  
+}
+
+.core-skills li {
   display: flex;
-  gap: 75px;
+  margin-left: -50px;
+  padding: 3px;
+  margin: 0;
 }
 
-.lang img {
-  flex: 1;
-  padding: 30px;
-}
-
-.lang h4 {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000;
-}
-
-.languages {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  width: 327px;
-  height: 248.15px;
-}
-
-.skills {
-  display: flex;
-  width: 303px;
-  height: 66.72px;
-  background: #f7f7f9;
+.language.js,
+.language.css,
+.language.html {
+  gap: 30px;
+  background: #F7F7F9;
   border-radius: 8px;
-  gap: 25px;
-  padding: 0 10px;
-}
-
-.skills h3 {
-  font-weight: 700;
+  width: 270px;
+  font-weight: 900;
   font-size: 15px;
-  line-height: 20px;
   color: #253858;
+  margin-bottom: 8px;
 }
 
-.abilities {
-  display: flex;
-  flex-direction: column;
-  width: 327px;
-  height: 72px;
+.framework {
+  gap: 135px;
 }
 
-.frame-works img {
-  flex: 1;
-  padding: 30px;
-  width: 35px;
-  height: 15px;
+.frame-skill {
+  gap: 200px;
 }
 
-.skills-set {
-  display: flex;
-  gap: 150px;
-}
-
-.frame-works {
-  gap: 75px;
-  display: flex;
-}
-
-.frame-works h4,
-.skills-set h4 {
-  font-weight: 700;
+.frame-skill,
+.framework {
   font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
   color: #000;
 }
 
-.skills-set img {
-  flex: 1;
-  width: 35px;
-  height: 15px;
-  padding: 30px;
+.language-text {
+  gap: 150px;
+  font-size: 20px;
+  color: #000;
+
 }
 
-.solid {
-  width: 327px;
-  border-top: 2px;
-  color: black;
+#hr-frame {
+  border-top: 1px solid rgb(190, 185, 185);
 }
