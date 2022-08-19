@@ -2,6 +2,11 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background: #fcfcff;
+}
+
+section {
+  margin-bottom: 100px;
 }
 
 /* Navigation */
