@@ -116,3 +116,26 @@
 .left-block.one {
 	margin: 35px;
 }
+
+/*  Portfolio card 2 */
+  #lan-one {
+	gap: 10px;
+}
+
+#frame-one {
+	padding: 0px;
+	gap: 12px;
+	width: 320px;
+	height: 40px;
+}
+
+#left-skill,
+#left-year {
+	font-size: 18px;
+	line-height: 24px;
+	color: #6B778C;
+}
+
+#fb-text {
+	font-weight: 600;
+}
