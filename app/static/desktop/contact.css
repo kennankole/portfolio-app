@@ -6,6 +6,10 @@
   background: #fff;
 }
 
+.about-me-section {
+	border-top-right-radius: 70px;
+}
+
 .about-me-main.portfolio-card-section {
 	border: none;
 }

@@ -4,6 +4,11 @@
   min-height: 700px; 
 }
 
+.main-section {
+  background: #fff;
+  border-bottom-left-radius: 70px;
+}
+
 .main-container {
 	display: grid;
 }
