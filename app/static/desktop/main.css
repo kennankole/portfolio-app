@@ -49,7 +49,7 @@
   flex-direction: column;
 }
 
-#connect {
+.connect {
   width: auto;
   margin-bottom: -10px;
   font-weight: 600;
