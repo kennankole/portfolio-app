@@ -1,22 +1,27 @@
 .main-background {
   background-image: url("/app/static/images/desktop-header-bg.svg");
-	width: 1280px;
+  width: 1280px;
   min-height: 700px; 
 }
 
+.main-section {
+  background: #fff;
+  border-bottom-left-radius: 70px;
+}
+
 .main-container {
-	display: grid;
+  display: grid;
 }
 
 .main-text {
-	grid-column: 3;
-	grid-row: 6;
-	width: 920px;
+  grid-column: 3;
+  grid-row: 6;
+  width: 920px;
 }
 
 .main-text h1 {
-	margin-top: 200px;
-	margin-bottom: -10px;
+  margin-top: 200px;
+  margin-bottom: -10px;
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
@@ -26,9 +31,9 @@
 }
 
 .inner-text {
-	grid-column: 3;
-	grid-row: 10;
-	width: 890px;
+  grid-column: 3;
+  grid-row: 10;
+  width: 890px;
 }
 
 #main-text-description	{
@@ -39,28 +44,28 @@
 }
 
 .social-icons {
-	display: flex;
-	align-content: flex-start;
-	flex-direction: column;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
 }
 
 #connect {
-	width: auto;
-	margin-bottom: -10px;
-	font-weight: 600;
+  width: auto;
+  margin-bottom: -10px;
+  font-weight: 600;
   font-size: 18px;
   line-height: 24px;
   color: #7f8cf7;
 }
 
 .icons {
-	display: flex;
-	max-width: 110px;
-	align-content: center;
-	justify-content: space-evenly;
-	gap: 28px;
+  display: flex;
+  max-width: 110px;
+  align-content: center;
+  justify-content: space-evenly;
+  gap: 28px;
 }
 
 .icons a {
-	color: #505f79;
+  color: #505f79;
 }
