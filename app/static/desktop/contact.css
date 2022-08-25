@@ -98,3 +98,116 @@
   border: 1px solid #6070ff;
   border-radius: 8px;
 }
+
+/* form container */
+.form-container {
+	height: 846px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-text {
+	height: auto;
+	width: 720px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-text h2 {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 52px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.form-text > p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  width: 569px;
+  height: 102px;
+  text-align: center;
+  color: #ebebff;
+	margin-top: -8px;
+}
+.container-form {
+	height: 423px;
+	width: 720px;
+}
+
+.container-form form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -8px;
+}
+
+input[type='text'],
+input[type='email'] {
+	font-family: 'Poppins', sans-serif;
+  margin: 8px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+	height: 48px;
+  width: 447px;
+  border-radius: 2px;
+}
+
+#send-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+textarea {
+  margin: 8px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+	height: 170px;
+  width: 447px;
+  border-radius: 2px;
+}
+
+input[type='submit'] {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin: 8px;
+	width: 142px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  font-family: 'Poppins', sans-serif;
+	padding: 12px 16px;
+}
+
+input[type='submit']:hover {
+  background-color: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+input[type='submit']:active {
+  background: #2230d2;
+  border-radius: 8px;
+  color: #fff;
+}
