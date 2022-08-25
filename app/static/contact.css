@@ -81,8 +81,8 @@
 	display: flex;
 }
 
-#about-frameworks > h5, 
-#about-skills > h5 {
+#about-frameworks  h5, 
+#about-skills  h5 {
 	flex: 1;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .see-project-btn.about {
-	margin-top: -5px;
+  margin-top: -5px;
 	padding: 12px;
   gap: 10px;
   width: 162px;
@@ -126,7 +126,7 @@
   color: #fff;
 }
 
-.form-text > p {
+.form-text  p {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;

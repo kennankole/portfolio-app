@@ -20,6 +20,7 @@
     text-decoration: none;
     color: #344563;
   }
+
   .left a {
     text-decoration: none;
     color: #6070ff;
@@ -49,6 +50,6 @@
 
   ul {
     list-style-type: none;
-  } 
-}
+  }
 
+}

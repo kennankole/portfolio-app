@@ -1,3 +1,4 @@
+
 .portfolio-card-section {
 	background: #fff;
 	border: 1px solid #dfe1e6;
@@ -10,7 +11,7 @@
 }
 
 .right-block {
-	margin: 20px;	
+  margin: 20px;	
 }
 
 .left-block {
@@ -32,7 +33,7 @@
 	color: #344563;
 }
 
-.left-frame ul{
+.left-frame ul {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -122,7 +123,7 @@
 }
 
 .frame-one {
-  padding: 0px;
+  padding: 0;
 	gap: 12px;
 	width: 320px;
 	height: 40px;
