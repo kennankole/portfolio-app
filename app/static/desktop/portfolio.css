@@ -1,0 +1,118 @@
+.portfolio-card-section {
+	background: #fff;
+	border: 1px solid #dfe1e6;
+	border-radius: 24px;
+	height: 496px;
+	width: 1156px;
+	border-radius: 24px;
+	display: flex;
+	margin-left: 60px;
+	margin-top: 150px;
+}
+
+.right-block {
+	margin: 20px;
+		
+}
+
+.left-block {
+	margin: 20px;
+	height: auto;
+}
+
+.left-block h3 {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 52px;
+	color: #091e42;
+}
+
+.left-block p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #344563;
+}
+.left-frame ul{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 12px;
+	width: 297px;
+	height: 40px;
+}
+
+.left-frame > ul > li {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: #344563;
+	justify-content: space-between;
+}
+
+.languages ul {
+	display: flex;
+	gap: 30px;
+	margin-top: 20px;
+}
+
+.languages > ul > li {
+	text-align: center;
+	padding: 4px 12px;
+	height: 24px;
+	background: #ebebff;
+	border-radius: 8px;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 0.03em;
+	color: #6070ff;
+}
+
+#lan-html {
+	margin-left: -40px;
+	width: 53px;
+}
+
+#lan-css {
+	width: 45px;
+}
+
+#lan-js {
+	width: 89px;
+}
+
+.see-project-btn {
+	background: #fff;
+	text-align: center;
+	align-items: center;
+	padding: 12px;
+	gap: 10px;
+	width: 124px;
+	height: 48px;
+	border: 1px solid #6070ff;
+	border-radius: 8px;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: #396df2;
+	margin-top: 20px;
+}
+
+.see-project-btn:hover {
+	background-color: #6070ff;
+	color: #fff;
+	box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.see-project-btn:active {
+	background: #2230d2;
+	border-radius: 8px;
+	color: #fff;
+}
+
+.left-block.one {
+	margin: 35px;
+}
