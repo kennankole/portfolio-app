@@ -1,4 +1,4 @@
-.about-me-section, 
+.about-me-section,
 .contact-section {
   border-bottom-left-radius: 0;
 	width: 1290px;
@@ -13,6 +13,7 @@
 	display: grid;
 	margin-top: 140px;
 }
+
 .about-me-main {
 	grid-column: 2;
 	grid-row: 1;
@@ -28,6 +29,7 @@
 	height: 50px;
 	width: 50px;
 }
+
 .desktop-form-bg-img {
 	background: #6070ff;
 	width: 1290px;
@@ -54,10 +56,8 @@
   background: #f7f7f9;
   border-radius: 8px;
 	font-weight: 500;
-  font-size: 12px;
   line-height: 20px;
   letter-spacing: 0.03em;
-  font-weight: 500;
   font-size: 15px;
   color: #253858;
 }
@@ -135,6 +135,7 @@
   color: #ebebff;
 	margin-top: -8px;
 }
+
 .container-form {
 	height: 423px;
 	width: 720px;
