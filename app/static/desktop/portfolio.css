@@ -139,3 +139,10 @@
 #fb-text {
 	font-weight: 600;
 }
+
+/* Portfolio card 3 */
+#port3-text {
+	font-weight: 900;
+	margin-bottom: -7px;
+	font-size: 50px;
+}
