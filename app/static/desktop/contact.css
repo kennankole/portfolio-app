@@ -1,0 +1,100 @@
+.about-me-section, 
+.contact-section {
+  border-bottom-left-radius: 0;
+	width: 1290px;
+  height: 924px;
+  background: #fff;
+}
+
+.about-me-main.portfolio-card-section {
+	border: none;
+}
+.about-me-section {
+	display: grid;
+	margin-top: 140px;
+}
+.about-me-main {
+	grid-column: 2;
+	grid-row: 1;
+	display: flex;
+}
+
+.about-me-frame {
+	height: 50px;
+	width: 50px;
+}
+
+.skills-frame {
+	height: 50px;
+	width: 50px;
+}
+.desktop-form-bg-img {
+	background: #6070FF;
+	width: 1290px;
+  height: 846px;
+	border-top-left-radius: 120px;
+	background-image: url("/app/static/images/dsktp-contact-form-bg.svg");
+	background-repeat: no-repeat;
+}
+
+.left-block.about {
+  width: 447px;
+}
+
+.languages.about {
+	gap: 24px;
+	width: 684px;
+	margin: 20px;
+}
+
+.languages.about > ul > li {
+	text-align: start;
+	width: 122px;
+  height: 120px;
+  background: #f7f7f9;
+  border-radius: 8px;
+	font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 15px;
+  color: #253858;
+}
+
+.about-languages {
+	display: flex;
+}
+
+.about-languages h4 {
+	flex: 1;
+	margin-left: 60px;
+}
+
+.about-frame-8 ul {
+	display: block;
+}
+
+#about-frameworks,
+#about-skills {
+	display: flex;
+}
+
+#about-frameworks > h5, 
+#about-skills > h5 {
+	flex: 1;
+}
+
+.about-seperator {
+	margin: 0 50px;
+}
+
+.see-project-btn.about {
+	margin-top: -5px;
+	padding: 12px;
+  gap: 10px;
+  width: 162px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
