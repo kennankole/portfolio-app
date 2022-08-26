@@ -46,7 +46,7 @@
 
 .left-frame > ul > li {
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 24px;
 	color: #344563;
 	justify-content: space-between;
@@ -71,16 +71,16 @@
 	color: #6070ff;
 }
 
-#lan-html {
+.lan-html {
 	margin-left: -40px;
 	width: 53px;
 }
 
-#lan-css {
+.lan-css {
 	width: 45px;
 }
 
-#lan-js {
+.lan-js {
 	width: 89px;
 }
 
@@ -119,25 +119,25 @@
 }
 
 /*  Portfolio card 2 */
-  #lan-one {
+.lan-one {
 	gap: 10px;
 }
 
-#frame-one {
-	padding: 0px;
+.frame-one {
+  padding: 0px;
 	gap: 12px;
 	width: 320px;
 	height: 40px;
 }
 
-#left-skill,
-#left-year {
-	font-size: 18px;
+.left-skill,
+.left-year {
+	font-size: 16px;
 	line-height: 24px;
 	color: #6B778C;
 }
 
-#fb-text {
+.fb-text {
 	font-weight: 600;
 }
 

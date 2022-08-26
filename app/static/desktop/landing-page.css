@@ -15,16 +15,28 @@
     text-align: center;
     background: #fff;
   }
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> landing-page
   .right a {
     text-decoration: none;
     color: #344563;
   }
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> landing-page
   .left a {
     text-decoration: none;
     color: #6070ff;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> landing-page
   .left {
     flex: 1;
     padding: 10px;
@@ -33,7 +45,11 @@
     line-height: 20px;
     justify-content: center;
   }
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> landing-page
   .right {
     flex: 1;
     display: flex;
@@ -46,9 +62,16 @@
     line-height: 20px;
     color: #344563;
   }
+<<<<<<< HEAD
   
   ul {
     list-style-type: none;
   }
   
+=======
+
+  ul {
+    list-style-type: none;
+  } 
+>>>>>>> landing-page
 }
