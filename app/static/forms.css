@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+@import "https://fonts.googleapis.com/css2?family=Dosis&family=Poppins:wght@300&family=Roboto:wght@300&display=swap";
 
 .contact-form {
   display: flex;
@@ -55,8 +55,8 @@ form {
   margin-top: 70px;
 }
 
-input[type='text'],
-input[type='email'] {
+input[type="text"],
+input[type="email"] {
   margin: 8px;
   width: 300px;
   height: 40px;
@@ -70,7 +70,7 @@ input[type='email'] {
   color: #172b4d;
 }
 
-input[type='submit'] {
+input[type="submit"] {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 4px;
@@ -83,16 +83,16 @@ input[type='submit'] {
   text-align: center;
   letter-spacing: 0.03em;
   color: #6070ff;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
-input[type='submit']:hover {
+input[type="submit"]:hover {
   background-color: #6070ff;
   color: #fff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
 }
 
-input[type='submit']:active {
+input[type="submit"]:active {
   background: #2230d2;
   border-radius: 8px;
   color: #fff;
@@ -105,7 +105,7 @@ textarea {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 4px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -113,5 +113,5 @@ textarea {
 }
 
 .form-img {
-   margin-left: -30px;
+  margin-left: -30px;
 }
