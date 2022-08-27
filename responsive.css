@@ -454,7 +454,6 @@
     gap: 12px;
   }
 
-
   .language-lists {
     display: grid;
     justify-items: start;
@@ -552,7 +551,6 @@
     border-radius: 8px;
     color: #fff;
   }
-
 
   .about-me-section {
     display: none;
