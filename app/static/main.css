@@ -1,7 +1,7 @@
 .main-background {
   background-image: url("/app/static/images/desktop-header-bg.svg");
   width: 1280px;
-  min-height: 700px; 
+  min-height: 700px;
 }
 
 .main-section {
@@ -36,7 +36,7 @@
   width: 890px;
 }
 
-#main-text-description	{
+#main-text-description {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -63,9 +63,10 @@
   max-width: 110px;
   align-content: center;
   justify-content: space-evenly;
-  gap: 28px;
+  gap: 20px;
 }
 
 .icons a {
   color: #505f79;
+  font-size: 24px;
 }
