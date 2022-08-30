@@ -381,11 +381,12 @@
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 4px;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 20px;
     display: flex;
     align-items: center;
     color: #172b4d;
+    padding: 5px 10px;
   }
 
   input[type="submit"] {
@@ -425,9 +426,10 @@
     border-radius: 4px;
     font-family: Poppins, sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 24px;
     color: #b3bac5;
+    padding: 5px 10px;
   }
 
   .form-img {
