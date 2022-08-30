@@ -63,9 +63,10 @@
   max-width: 110px;
   align-content: center;
   justify-content: space-evenly;
-  gap: 28px;
+  gap: 20px;
 }
 
 .icons a {
   color: #505f79;
+  font-size: 24px;
 }
