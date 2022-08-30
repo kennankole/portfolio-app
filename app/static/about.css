@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-about {
+  display: flex;
+  width: 375px;
+  height: 1263px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-top-right-radius: 60px;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.about-me {
+  width: 375px;
+  height: 1363px;
+  left: 375px;
+  top: 4769px;
+  background: #fff;
+}
+
+.about-me-text {
+  padding-top: 60px;
+  margin-bottom: -20px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 52px;
+  color: #172b45;
+}
+
+.language-lists {
+  display: grid;
+  justify-items: start;
+  width: 300px;
+  height: 464.15px;
+  margin-left: -50px;
+}
+
+.core-skills li {
+  display: flex;
+  padding: 3px;
+}
+
+.language.js,
+.language.css,
+.language.html {
+  gap: 30px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  width: 270px;
+  font-weight: 900;
+  font-size: 15px;
+  color: #253858;
+  margin-bottom: 8px;
+}
+
+.framework {
+  gap: 135px;
+}
+
+.frame-skill {
+  gap: 200px;
+}
+
+.frame-skill,
+.framework {
+  font-size: 20px;
+  color: #000;
+}
+
+.language-text {
+  gap: 150px;
+  font-size: 20px;
+  color: #000;
+}
+
+#hr-frame {
+  border-top: 1px solid rgb(190, 185, 185);
+}
