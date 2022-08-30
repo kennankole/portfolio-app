@@ -62,13 +62,18 @@
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 0.03em;
   color: #6070ff;
 }
 
+.lan-one li:hover{
+  background-color: #6b778c;
+  color: #fff;
+  box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
+}
 .lan-html {
   margin-left: -40px;
   width: 53px;

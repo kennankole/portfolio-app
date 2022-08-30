@@ -196,7 +196,7 @@
     height: 24px;
     background: #ebebff;
     border-radius: 8px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 12px;
     letter-spacing: 0.03em;
     color: #6070ff;
@@ -582,6 +582,11 @@
     display: none;
   }
 
+  #mobile-story,
+  #mobile-cannopy,
+  #mobile-tonnic {
+    display: none;
+  }
   .mobile-sp {
     display: none;
   }

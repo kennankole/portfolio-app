@@ -43,6 +43,7 @@
   color: #344563;
 }
 
+
 .social-icons {
   display: flex;
   align-content: flex-start;
@@ -63,9 +64,13 @@
   max-width: 110px;
   align-content: center;
   justify-content: space-evenly;
-  gap: 28px;
+  gap: 20px;
 }
 
 .icons a {
   color: #505f79;
+  font-size: 24px;
 }
+
+
+
