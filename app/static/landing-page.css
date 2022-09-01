@@ -1,9 +1,12 @@
 @import "https://fonts.googleapis.com/css2?family=Dosis&family=Poppins:wght@300&family=Roboto:wght@300&display=swap";
 
+html,
 body {
   font-family: Poppins, sans-serif;
   background: #e5e5e5;
   width: 1280px;
+  scroll-behavior: smooth;
+  transition-duration: 1ms;
 }
 
 nav {

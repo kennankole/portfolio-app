@@ -156,3 +156,12 @@
 #uber-nav {
   margin-top: -1px;
 }
+
+.card-img {
+  transition: transform 0.5s;
+  margin: 0 auto;
+}
+
+.card-img:hover {
+  transform: scale(0.9);
+}
