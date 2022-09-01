@@ -66,7 +66,35 @@
   gap: 20px;
 }
 
-.icons a {
+.fa-brands,
+.fa-solid {
   color: #505f79;
   font-size: 24px;
+  transition: transform 0.5s;
+  margin: 0 auto;
 }
+
+.fa-brands:hover,
+.fa-solid:hover {
+  /* color: #7f8cf7; */
+  color: #2230d2;
+  transform: scale(1.2);
+  transform: scale(1.5);
+}
+
+#logo-text {
+  animation: rotate 1s ease-out;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+
+
+
