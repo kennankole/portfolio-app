@@ -6,7 +6,7 @@ body {
   background: #e5e5e5;
   width: 1280px;
   scroll-behavior: smooth;
-  transition-duration: 2ms;
+  transition-duration: 1ms;
 }
 
 nav {
