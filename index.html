@@ -25,9 +25,9 @@
 								<li id="logo-text"><a href="#">My Logo</a></li>
 							</ul>
 							<ul class="right">
-								<li><a href="#">Portfolio</a></li>
-								<li><a href="#">About</a></li>
-								<li><a href="#">Contact</a></li>
+								<li><a href="#portfolio">Portfolio</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="#contact">Contact</a></li>
 							</ul>
 							<ul class="hambuger-menu">
 								<li><a href="#"><div class="menu-icon"></div></a></li>
@@ -66,6 +66,7 @@
 				</section>
 
 				<!--Portfolio card 1-->
+				<div id="portfolio">
 				<section class="portfolio-card-section">
 					<div class="right-block">
 						<img src="/app/static/images/dsk-portfolio-card.svg" alt="Portfolio card image" class="card-img">
@@ -197,205 +198,207 @@
 						<img src="/app/static/images/dsktp-last-card.svg" alt="Portfolio card image" class="card-img">
 					</div>
 				</section>
-
+				</div>
 				<!-- About me and form section for desktop -->
-				<section class="about-me-section">
-					<div class="about-me-main">
-						<!--About myself left -->
-						<div class="left-block about">
-							<h3>About<br>Myself</h3>
-							<p>
-								Hello I’m a software developer! I can help you build a product,
-								feature or website Look through some of my work and experience!
-								If you like what you see and have a project you need coded,
-								don’t hestiate to contact me.
-							</p>
-							<div class="social-icons">
-								<h4 class="connect">LET’S CONNECT</h4>
-								<ul class="icons">
-									<li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-									<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-									<li><a href="#"><i class="fa-solid fa-hand-peace"></i></a></li>
-									<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa-solid fa-m"></i></a></li>
-								</ul>
-							</div>
-							<button type="submit" class="see-project-btn about">Get My Resume</button>
-						</div>
-						<!-- skills and technologies right -->
-						<div class="languages about">
-							<div class="about-languages">
-								<h4>Languages</h4>
-								<img src="/app/static/images/Union.svg" alt="image" class="about-seperator">
-							</div>
-							<ul class="about-lang-frame">
-								<li id="about-js">
-									<img src="/app/static/images/js.svg" alt="image">
-									<h3>Javascript</h3>
-								</li>
-								<li id="about-html">
-									<img src="/app/static/images/html.svg" alt="image">
-									<h3>HTML</h3>
-								</li>
-								<li id="about-css">
-									<img src="/app/static/images/css.svg" alt="image">
-									<h3>CSS</h3>
-								</li>
-							</ul>
-							<div class="about-frame-8">
-								<ul>
-									<li id="about-frameworks">
-										<h5>Frameworks</h5>
-										<img src="/app/static/images/arrow.svg" alt="image" class="arrow-mobile">
-									</li>
-									<li><img class="mobile-sp" src="/app/static/images/Separator-Bottom.svg" alt=""></li>
-									<li><img src="/app/static/images/Separator-Bottom-(1).svg" alt="image" id="about-seperator-one"></li>
-									<li id="about-skills">
-										<h5>Skills</h5>
-										<img src="/app/static/images/arrow.svg" alt="image" class="arrow-mobile">
-									</li>
-									<li><img class="mobile-sp" src="/app/static/images/Separator-Bottom.svg" alt=""></li>
-									<li><img src="/app/static/images/Separator-Bottom-(1).svg" alt="image" id="about-seperator-two">
-								</ul>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<!--Mobile about me section -->
-				<section class="section-elements">
-					<div class="section-about">
-						<div class="section-block">
-							<div class="about-me-text">
-								<h1>About <br> Myself</h1>
-							</div>
-							<div class="about-text">
-								<p>I’m a software developer! I can help you build a product , 
-									feature or website Look through some of my work and experience! 
-									If you like what you see and have a project you need coded, 
+				<div id="about">
+					<section class="about-me-section">
+						<div class="about-me-main">
+							<!--About myself left -->
+							<div class="left-block about">
+								<h3>About<br>Myself</h3>
+								<p>
+									Hello I’m a software developer! I can help you build a product,
+									feature or website Look through some of my work and experience!
+									If you like what you see and have a project you need coded,
 									don’t hestiate to contact me.
 								</p>
-							</div>
-							<div class="social-media">
-								<h4>LET’S CONNECT</h4>
-								<ul class="icons">
+								<div class="social-icons">
+									<h4 class="connect">LET’S CONNECT</h4>
+									<ul class="icons">
 										<li><a href="#"><i class="fa-brands fa-github"></i></a></li>
 										<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
 										<li><a href="#"><i class="fa-solid fa-hand-peace"></i></a></li>
 										<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
 										<li><a href="#"><i class="fa-solid fa-m"></i></a></li>
-								</ul>
+									</ul>
+								</div>
+								<button type="submit" class="see-project-btn about">Get My Resume</button>
 							</div>
-							<div class="section-action">
-								<button id="resume-btn" type="submit">Get my resume</button>
-							</div>
-							<div class="language-lists">
-								<ul class="core-skills">
-									<li class="language-text">
-										<h5>Languages</h5>
-										<img src="/app/static/images/Union.svg" alt="drop down icon">
+							<!-- skills and technologies right -->
+							<div class="languages about">
+								<div class="about-languages">
+									<h4>Languages</h4>
+									<img src="/app/static/images/Union.svg" alt="image" class="about-seperator">
+								</div>
+								<ul class="about-lang-frame">
+									<li id="about-js">
+										<img src="/app/static/images/js.svg" alt="image">
+										<h3>Javascript</h3>
 									</li>
-									<li class="language js">
-										<img src="/app/static/images/js.svg" alt="Javascript logo">
-										<h5>Javascript</h5>
+									<li id="about-html">
+										<img src="/app/static/images/html.svg" alt="image">
+										<h3>HTML</h3>
 									</li>
-									<li class="language html">
-										<img src="/app/static/images/html.svg" alt="html logo">
-										<h5>HTML</h5>
+									<li id="about-css">
+										<img src="/app/static/images/css.svg" alt="image">
+										<h3>CSS</h3>
 									</li>
-									<li class="language css">
-										<img src="/app/static/images/css.svg" alt="css logo">
-										<h5>CSS</h5>
-									</li>
-									<li class="framework frame">
-										<h5>Frameworks</h5>
-										<img src="/app/static/images/arrow.svg" alt=""> 
-									</li>
-									<li><img src="/app/static/images/Separator-Bottom.svg" alt=""></li>
-									<li class="frame-skill skillset">
-										<h5>Skills</h5>
-										<img src="/app/static/images/arrow.svg" alt=""> 
-									</li>
-									<li><img src="/app/static/images/Separator-Bottom.svg" alt=""></li>
 								</ul>
+								<div class="about-frame-8">
+									<ul>
+										<li id="about-frameworks">
+											<h5>Frameworks</h5>
+											<img src="/app/static/images/arrow.svg" alt="image" class="arrow-mobile">
+										</li>
+										<li><img class="mobile-sp" src="/app/static/images/Separator-Bottom.svg" alt=""></li>
+										<li><img src="/app/static/images/Separator-Bottom-(1).svg" alt="image" id="about-seperator-one"></li>
+										<li id="about-skills">
+											<h5>Skills</h5>
+											<img src="/app/static/images/arrow.svg" alt="image" class="arrow-mobile">
+										</li>
+										<li><img class="mobile-sp" src="/app/static/images/Separator-Bottom.svg" alt=""></li>
+										<li><img src="/app/static/images/Separator-Bottom-(1).svg" alt="image" id="about-seperator-two">
+									</ul>
+								</div>
 							</div>
 						</div>
-					</div>
-				</section>
+					</section>
 
-				<!-- Contact form section for desktop -->
-				<section class="contact-section">
-					<div class="desktop-form-bg-img">
-						<div class="form-container">
-							<div class="form-text">
-								<h2>Contact me</h2>
-								<p>
-									If you have an application you are interested in developing,
-									a feature that you need built or a project that needs coding.
-									I’d love to help with it
-								</p>
+					<!--Mobile about me section -->
+					<section class="section-elements">
+						<div class="section-about">
+							<div class="section-block">
+								<div class="about-me-text">
+									<h1>About <br> Myself</h1>
+								</div>
+								<div class="about-text">
+									<p>I’m a software developer! I can help you build a product , 
+										feature or website Look through some of my work and experience! 
+										If you like what you see and have a project you need coded, 
+										don’t hestiate to contact me.
+									</p>
+								</div>
+								<div class="social-media">
+									<h4>LET’S CONNECT</h4>
+									<ul class="icons">
+											<li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+											<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+											<li><a href="#"><i class="fa-solid fa-hand-peace"></i></a></li>
+											<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa-solid fa-m"></i></a></li>
+									</ul>
+								</div>
+								<div class="section-action">
+									<button id="resume-btn" type="submit">Get my resume</button>
+								</div>
+								<div class="language-lists">
+									<ul class="core-skills">
+										<li class="language-text">
+											<h5>Languages</h5>
+											<img src="/app/static/images/Union.svg" alt="drop down icon">
+										</li>
+										<li class="language js">
+											<img src="/app/static/images/js.svg" alt="Javascript logo">
+											<h5>Javascript</h5>
+										</li>
+										<li class="language html">
+											<img src="/app/static/images/html.svg" alt="html logo">
+											<h5>HTML</h5>
+										</li>
+										<li class="language css">
+											<img src="/app/static/images/css.svg" alt="css logo">
+											<h5>CSS</h5>
+										</li>
+										<li class="framework frame">
+											<h5>Frameworks</h5>
+											<img src="/app/static/images/arrow.svg" alt=""> 
+										</li>
+										<li><img src="/app/static/images/Separator-Bottom.svg" alt=""></li>
+										<li class="frame-skill skillset">
+											<h5>Skills</h5>
+											<img src="/app/static/images/arrow.svg" alt=""> 
+										</li>
+										<li><img src="/app/static/images/Separator-Bottom.svg" alt=""></li>
+									</ul>
+								</div>
 							</div>
-							<div class="container-form">
+						</div>
+					</section>
+				</div>
+				<!-- Contact form section for desktop -->
+				<div id="contact">
+					<section class="contact-section">
+						<div class="desktop-form-bg-img">
+							<div class="form-container">
+								<div class="form-text">
+									<h2>Contact me</h2>
+									<p>
+										If you have an application you are interested in developing,
+										a feature that you need built or a project that needs coding.
+										I’d love to help with it
+									</p>
+								</div>
+								<div class="container-form">
+									<form action="https://formspree.io/f/xpznwqnd" method="POST">
+										<ul>
+											<li>
+												<label for="name"></label>
+												<input id="name" type="text" placeholder="Full Name" maxlength="30" required>
+											</li>
+											<li>
+												<label for="email"></label>
+												<input id="email" type="email" placeholder="Email Address" maxlength="30" required>
+											</li>
+											<li>
+												<label for="subject"></label>
+												<textarea id="subject" name="subject" placeholder="Write your message here" maxlength="500" required></textarea>
+											</li>
+											<li id="send-btn">
+												<label for="send"></label>
+												<input id="send" type="submit" value="Get In Touch  >>">
+											</li>
+										</ul>
+									</form>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- Mobile -->
+					<section class="section-elements contact">
+						<div class="contact-form">
+							<div class="form-bg">
+								<div class="form-text-container">
+									<p id="form-title">Contact Me</p>
+									<p id="form-text">If you have an application you are interested in developing,
+										a feature that you need built or a project that needs coding.
+										I’d love to help with it
+									</p>
+								</div>
 								<form action="https://formspree.io/f/xpznwqnd" method="POST">
 									<ul>
 										<li>
-											<label for="name"></label>
-											<input id="name" type="text" placeholder="Full Name" maxlength="30" required>
+											<label for="names"></label>
+											<input id="names" type="text" placeholder="Full Name" maxlength="30" required>
 										</li>
 										<li>
-											<label for="email"></label>
-											<input id="email" type="email" placeholder="Email Address" maxlength="30" required>
+											<label for="emails"></label>
+											<input id="emails" type="email" placeholder="Email Address" maxlength="30" required>
 										</li>
 										<li>
-											<label for="subject"></label>
-											<textarea id="subject" name="subject" placeholder="Write your message here" maxlength="500" required></textarea>
+											<label for="subjects"></label>
+											<textarea id="subjects" name="subject" placeholder="Write your message here" maxlength="500" required></textarea>
 										</li>
-										<li id="send-btn">
-											<label for="send"></label>
-											<input id="send" type="submit" value="Get In Touch  >>">
+										<li>
+											<label for="sends"></label>
+											<input id="sends" type="submit" value="Get In Touch  >>">
 										</li>
 									</ul>
 								</form>
+								<img src="/app/static/images/Shape.svg" alt="shape" class="form-img">
 							</div>
 						</div>
-					</div>
-				</section>
-
-				<!-- Mobile -->
-				<section class="section-elements contact">
-					<div class="contact-form">
-						<div class="form-bg">
-							<div class="form-text-container">
-								<p id="form-title">Contact Me</p>
-								<p id="form-text">If you have an application you are interested in developing,
-									a feature that you need built or a project that needs coding.
-									I’d love to help with it
-								</p>
-							</div>
-							<form action="https://formspree.io/f/xpznwqnd" method="POST">
-								<ul>
-									<li>
-										<label for="names"></label>
-										<input id="names" type="text" placeholder="Full Name" maxlength="30" required>
-									</li>
-									<li>
-										<label for="emails"></label>
-										<input id="emails" type="email" placeholder="Email Address" maxlength="30" required>
-									</li>
-									<li>
-										<label for="subjects"></label>
-										<textarea id="subjects" name="subject" placeholder="Write your message here" maxlength="500" required></textarea>
-									</li>
-									<li>
-										<label for="sends"></label>
-										<input id="sends" type="submit" value="Get In Touch  >>">
-									</li>
-								</ul>
-							</form>
-							<img src="/app/static/images/Shape.svg" alt="shape" class="form-img">
-						</div>
-					</div>
-				</section>
+					</section>
+				</div>
 			</div>
   	</main>
 	</body>
