@@ -1,5 +1,5 @@
 .main-background {
-  background-image: url("/app/static/images/desktop-header-bg.svg");
+  background-image: url("./images/desktop-header-bg.svg");
   width: 1280px;
   min-height: 700px;
 }

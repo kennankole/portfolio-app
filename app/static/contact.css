@@ -38,7 +38,7 @@
   width: 1290px;
   height: 846px;
   border-top-left-radius: 120px;
-  background-image: url("/app/static/images/dsktp-contact-form-bg.svg");
+  background-image: url("./images/dsktp-contact-form-bg.svg");
   background-repeat: no-repeat;
 }
 

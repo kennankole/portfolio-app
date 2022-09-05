@@ -69,7 +69,7 @@
   .main-background {
     width: 475px;
     height: 588px;
-    background-image: url("/app/static/images/header-shapes\ mobile.svg");
+    background-image: url("./images/header-shapes-mobile.svg");
     background-repeat: no-repeat;
     padding: 0 10px;
     padding-top: 0;
@@ -116,13 +116,21 @@
     color: #505f79;
   }
 
+  .fa-brands,
+  .fa-solid {
+    color: #505f79;
+    font-size: 16px;
+    transition: transform 0.5s;
+    margin: 0 auto;
+  }
+
   /* mid section one */
   .right-block {
     display: none;
   }
 
   .section-one-bg {
-    background: url("/app/static/images/Snapshoot\ Portfolio\ \(1\).svg");
+    background-image: url("./images/Snapshoot-Portfolio-1.svg");
     width: 295px;
     height: 220px;
   }
@@ -269,19 +277,19 @@
   }
 
   .section-two-bg {
-    background: url("/app/static/images/Snapshoot-Portfolio_1.svg");
+    background: url("./images/Snapshoot-Portfolio_1.svg");
     width: 295px;
     height: 220px;
   }
 
   .section-three-bg {
-    background: url("/app/static/images/Snapshoot-Portfolio_2.svg");
+    background: url("./images/Snapshoot-Portfolio_2.svg");
     width: 295px;
     height: 220px;
   }
 
   .section-four-bg {
-    background: url("/app/static/images/Snapshoot-Portfolio_3.svg");
+    background: url("./images/Snapshoot-Portfolio_3.svg");
     width: 295px;
     height: 220px;
   }
@@ -332,7 +340,7 @@
   }
 
   .form-bg {
-    background-image: url("/app/static/images/form-bg.svg");
+    background-image: url("./images/form-bg.svg");
     background-repeat: no-repeat;
     width: 265px;
     height: 779px;
