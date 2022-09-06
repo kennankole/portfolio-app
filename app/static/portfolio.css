@@ -62,11 +62,11 @@
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
-  font-weight: 600;
-  font-size: 12px;
+  font-weight: 800;
+  font-size: 17px;
   line-height: 20px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #3d51ff;
 }
 
 .lan-one li:hover {
@@ -102,7 +102,7 @@
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #396df2;
+  color: #3d51ff;
   margin-top: 20px;
 }
 
