@@ -221,7 +221,7 @@ input[type="submit"]::before {
 
 input[type="submit"]:hover {
   text-indent: -15px;
-  background-color: #3d51ff;;
+  background-color: #3d51ff;
   color: #fff;
   box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
 }
