@@ -60,8 +60,8 @@
   border-radius: 8px;
   line-height: 20px;
   letter-spacing: 0.03em;
-  font-weight: 500;
-  font-size: 15px;
+  font-weight: 800;
+  font-size: 24px;
   color: #253858;
   transition: transform 0.5s;
 }
@@ -130,8 +130,8 @@
 }
 
 .form-text > p {
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 800;
+  font-size: 24px;
   line-height: 28px;
   width: 569px;
   height: 102px;
