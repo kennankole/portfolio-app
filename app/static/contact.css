@@ -202,7 +202,7 @@ input[type="submit"] {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #3d51ff;
   font-family: Poppins, sans-serif;
   padding: 12px 16px;
   transition: all 0.2s linear 0s;
@@ -221,7 +221,7 @@ input[type="submit"]::before {
 
 input[type="submit"]:hover {
   text-indent: -15px;
-  background-color: #6070ff;
+  background-color: #3d51ff;;
   color: #fff;
   box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
 }
