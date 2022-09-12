@@ -19,52 +19,55 @@
 <body>
 	<main>
 		<div class="container">
-			<!-- Navigation menu -->
-			<header>
-				<nav>
-					<ul class="left">
-						<li id="logo-text"><a href="#">My Logo</a></li>
-					</ul>
-					<ul class="right ">
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-					<ul class="hambuger-menu" onclick="myFunction(this)">
-						<li class="menu-icon one"><a href="#"></a></li>
-						<li class="menu-icon two"><a href="#"></a></li>
-						<li class="menu-icon three"><a href="#"></a></li>
-					</ul>
-				</nav>
-			</header>
-			<!-- main section -->
-			<section class="main-section">
-				<div class="main-background">
-					<div class="main-container">
-						<div class="main-text">
-							<h1>I’m Kennedy <br>Glad to see you!</h1>
-						</div>
-						<div class="inner-text">
-							<p id="main-text-description">I’m a software developer!
-								I can help you build a product,feature or website Look
-								through some of my work and experience! If you like what you
-								see and have a project you need coded,don’t hestiate to contact me.
-							</p>
-							<!--Social icons -->
-							<div class="social-icons">
-								<h2 class="connect">LET’S CONNECT</h2>
-								<ul class="icons">
-									<li><a href="https://github.com/kennankole"><i class="fa-brands fa-github"></i></a></li>
-									<li><a href="https://www.linkedin.com/in/omondi-kennedy-5359594a/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-									<li><a href="https://github.com/kennankole"><i class="fa-solid fa-hand-peace"></i></a></li>
-									<li><a href="https://twitter.com/KennedyObwombe"><i class="fa-brands fa-twitter"></i></a></li>
-									<li><a href="https://github.com/kennankole"><i class="fa-solid fa-m"></i></a></li>
-								</ul>
+			<div class="header-pop">
+				<header>
+					<nav>
+						<ul class="left">
+							<li id="logo-text"><a href="#">My Logo</a></li>
+						</ul>
+						<ul class="right">
+							<li><a class="menu-item" href="#portfolio" onclick="closeMenuItem()">Portfolio</a></li>
+							<li><a class="menu-item" href="#about" onclick="closeMenuItem()">About</a></li>
+							<li><a class="menu-item" href="#contact" onclick="closeMenuItem()">Contact</a></li>
+						</ul>
+						<ul class="hambuger-menu" onclick="myFunction(this)">
+							<li class="menu-icon one"><a href="#"></a></li>
+							<li class="menu-icon two"><a href="#"></a></li>
+							<li class="menu-icon three"><a href="#"></a></li>
+						</ul>
+					</nav>
+				</header>
+				<!-- main section -->
+				<section class="main-section">
+					<div class="main-background">
+						<div class="main-container">
+							<div class="main-text">
+								<h1>I’m Kennedy <br>Glad to see you!</h1>
+							</div>
+							<div class="inner-text">
+								<p id="main-text-description">I’m a software developer!
+									I can help you build a product,feature or website Look
+									through some of my work and experience! If you like what you
+									see and have a project you need coded,don’t hestiate to contact me.
+								</p>
+								<!--Social icons -->
+								<div class="social-icons">
+									<h2 class="connect">LET’S CONNECT</h2>
+									<ul class="icons">
+										<li><a href="https://github.com/kennankole"><i class="fa-brands fa-github"></i></a></li>
+										<li><a href="https://www.linkedin.com/in/omondi-kennedy-5359594a/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+										<li><a href="https://github.com/kennankole"><i class="fa-solid fa-hand-peace"></i></a></li>
+										<li><a href="https://twitter.com/KennedyObwombe"><i class="fa-brands fa-twitter"></i></a></li>
+										<li><a href="https://github.com/kennankole"><i class="fa-solid fa-m"></i></a></li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
+			</div>
+			<!-- Navigation menu -->
+			
 
 			<!--Portfolio card 1-->
 			<div id="portfolio">

@@ -30,9 +30,25 @@
     height: 48px;
     width: 375px;
   }
+  .header-pop {
+    background-color: #2230d2;
+  }
 
-  .right {
-    display: none;
+.right{
+  display:none;
+}
+  .show-menu {
+    display: block;
+    position: absolute;
+    top:85px;
+    line-height: 48px;
+    max-width:375px;
+    z-index: 1;
+    height:100%;
+  }
+
+  .change-color{
+    color:white;
   }
 
   nav {
@@ -82,7 +98,8 @@
   .main-background {
     width: 475px;
     height: 588px;
-    background-image: url("../static/images/header-shapes-mobile.svg");
+    background: url("../static/images/header-shapes-mobile.svg");
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
     padding: 0 10px;
     padding-top: 0;
