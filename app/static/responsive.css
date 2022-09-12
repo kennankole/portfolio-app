@@ -53,8 +53,21 @@
     margin: 4px 0;
     background: #6070ff;
     display: flex;
+    transition: 0.4s;
   }
 
+  .change .menu-icon.one {
+    transform: translate(0, 3px) rotate(-45deg);
+  }
+
+  .change .menu-icon.two {
+    opacity: 0;
+  }
+
+  .change .menu-icon.three {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+  
   .left li {
     width: 76px;
     height: 20px;
@@ -125,9 +138,9 @@
   }
 
   /* mid section one */
-  .right-block {
+  /* .right-block {
     display: none;
-  }
+  } */
 
   .section-one-bg {
     background-image: url("../static/images/Snapshoot-Portfolio-1.svg");
@@ -583,6 +596,10 @@
   .about-me-section {
     display: none;
   }
+
+
+  /*++++++++++++++++++++++++++++++Manipulate DOM Elements+++++++++++++++++++++*/
+
 }
 
 @media (min-width: 768px) {
