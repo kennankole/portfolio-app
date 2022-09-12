@@ -30,9 +30,9 @@
     height: 48px;
     width: 375px;
   }
-  .header-pop {
+  /* .header-pop {
     background-color: #2230d2;
-  }
+  } */
 
 .right{
   display:none;
@@ -47,9 +47,9 @@
     height:100%;
   }
 
-  .change-color{
+  /* .change-color{
     color:white;
-  }
+  } */
 
   nav {
     display: flex;
@@ -99,7 +99,6 @@
     width: 475px;
     height: 588px;
     background: url("../static/images/header-shapes-mobile.svg");
-    background-blend-mode: multiply;
     background-repeat: no-repeat;
     padding: 0 10px;
     padding-top: 0;
@@ -155,9 +154,9 @@
   }
 
   /* mid section one */
-  /* .right-block {
+  .right-block {
     display: none;
-  } */
+  }
 
   .section-one-bg {
     background-image: url("../static/images/Snapshoot-Portfolio-1.svg");
