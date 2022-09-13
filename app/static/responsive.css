@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: Poppins, sans-serif;
   }
 
   main {
@@ -35,6 +36,33 @@
     display: none;
   }
 
+  .show-menu {
+    display: block;
+    position: absolute;
+    top: 85px;
+    width: 335px;
+    z-index: auto;
+    height: 100%;
+    background-color: #6070ff;
+    margin-top: -85px;
+    text-align: start;
+    opacity: 0.8;
+  }
+
+  .show-menu a {
+    font-weight: 600;
+    margin: 35px auto;
+    color: #fff;
+    font-size: 32px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+  }
+
+  .port {
+    /* margin-top: 100px; */
+  }
+
   nav {
     display: flex;
     align-items: center;
@@ -53,6 +81,23 @@
     margin: 4px 0;
     background: #6070ff;
     display: flex;
+    transition: 0.4s;
+  }
+
+  .change .menu-icon.one {
+    transform: translate(0, 3px) rotate(-45deg);
+    background-color: white;
+    z-index: 3;
+  }
+
+  .change .menu-icon.two {
+    opacity: 0;
+  }
+
+  .change .menu-icon.three {
+    transform: translate(0, -11px) rotate(45deg);
+    background-color: white;
+    z-index: 2;
   }
 
   .left li {
@@ -61,7 +106,6 @@
   }
 
   .main-section {
-    /* background: #fff; */
     border-bottom-left-radius: 70px;
     width: 375px;
   }
@@ -69,7 +113,7 @@
   .main-background {
     width: 475px;
     height: 588px;
-    background-image: url("../static/images/header-shapes-mobile.svg");
+    background: url("../static/images/header-shapes-mobile.svg");
     background-repeat: no-repeat;
     padding: 0 10px;
     padding-top: 0;
@@ -410,7 +454,8 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #6070ff;
-    font-family: Poppins, sans-serif;
+
+    /* font-family: Poppins, sans-serif; */
   }
 
   input[type="submit"]:hover {
@@ -432,7 +477,8 @@
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 4px;
-    font-family: Poppins, sans-serif;
+
+    /* font-family: Poppins, sans-serif; */
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -583,6 +629,8 @@
   .about-me-section {
     display: none;
   }
+
+  /* ++++++++++++++++++++++++++++++Manipulate DOM Elements+++++++++++++++++++++ */
 }
 
 @media (min-width: 768px) {
