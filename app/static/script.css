@@ -1,0 +1,126 @@
+@import "https://fonts.googleapis.com/css2?family=Dosis&family=Poppins:wght@300&family=Roboto:wght@300&display=swap";
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins';
+}
+body {
+	background: #E5E5E5;
+}
+
+/*+++++++++++++++++++++++Main Section+++++++++++++++++++++++++++*/
+main {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.works-section {
+  height: 496px;
+	width: 1156px;
+	border-radius: 24px;
+	background: #FFFFFF;
+	border: 1px solid #DFE1E6;
+	display: flex;
+	gap: 50px;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.work-img {
+	height: 448px;
+	width: 544px;	
+	border-radius: 8px;
+	margin: 5px;
+}
+
+.work-title {
+	margin-top: -50px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 52px;
+	color: #091E42;
+	padding: 25px 0;
+}
+
+.works-badges {
+	display: flex;
+	gap: 25px;
+	list-style-type: none;
+	margin: 5px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	color: #6B778C;
+	padding: 10px 0;
+}
+
+/*----Select the first list element---*/
+.works-badges > li:first-of-type{
+	height: 24px;
+	width: 100px;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: #344563;
+}
+
+.works-para {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #344563;
+	width: 496px;
+	height: 50px;
+	padding: 10px 0;
+}
+
+.tech-list {
+	display: flex;
+	gap: 10px;
+	padding: 20px 0;
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+.tech-list > li {
+	align-items: center;
+	padding: 4px 12px;
+	height: 24px;
+	background: #EBEBFF;
+	border-radius: 8px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 26px;
+	letter-spacing: 0.03em;
+	color: #6070FF;
+}
+
+.tech-list > li:nth-of-type(1) {
+	width: 53px;
+}
+
+.tech-list > li:nth-of-type(2) {
+	width: 45px;
+}
+
+.tech-list > li:nth-of-type(3){
+	width: 89px;
+}
+
+button {
+	padding: 12px;
+	width: 144px;
+	height: 48px;
+	border: 1px solid #6070FF;
+	border-radius: 8px;
+	border: none;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: #396DF2;
+}
