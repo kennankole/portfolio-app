@@ -22,7 +22,6 @@ main {
 	background: #FFFFFF;
 	border: 1px solid #DFE1E6;
 	display: flex;
-	gap: 50px;
 	align-items: center;
 	margin-bottom: 100px;
 }
@@ -32,10 +31,11 @@ main {
 	width: 544px;	
 	border-radius: 8px;
 	margin: 5px;
+	padding: 15px;
 }
 
 .work-title {
-	margin-top: -50px;
+	margin-top: -70px;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 40px;
@@ -59,9 +59,8 @@ main {
 /*----Select the first list element---*/
 .works-badges > li:first-of-type{
 	height: 24px;
-	width: 100px;
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 800;
 	font-size: 18px;
 	line-height: 24px;
 	color: #344563;
@@ -78,6 +77,7 @@ main {
 }
 
 .tech-list {
+	width: 1016px;
 	display: flex;
 	gap: 10px;
 	padding: 20px 0;
@@ -103,13 +103,19 @@ main {
 	width: 53px;
 }
 
-.tech-list > li:nth-of-type(2) {
-	width: 45px;
-}
-
 .tech-list > li:nth-of-type(3){
 	width: 89px;
 }
+
+.tech-list.rubby {
+	width: 480px;
+	
+width: 53px;
+height: 24px;
+background: #EBEBFF;
+border-radius: 8px;
+}
+
 
 button {
 	padding: 12px;
@@ -123,4 +129,8 @@ button {
 	line-height: 24px;
 	letter-spacing: 0.03em;
 	color: #396DF2;
+}
+
+.left-frame {
+	padding: 0 40px;
 }
