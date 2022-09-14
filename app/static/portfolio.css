@@ -23,6 +23,8 @@
   font-size: 40px;
   line-height: 52px;
   color: #091e42;
+  padding: 10px 30px;
+  padding-top: 100px;
 }
 
 .left-block p {
@@ -30,6 +32,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  padding: 10px 30px;
 }
 
 .left-frame ul {
@@ -99,7 +102,7 @@
   border: 1px solid #6070ff;
   border-radius: 8px;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #3d51ff;

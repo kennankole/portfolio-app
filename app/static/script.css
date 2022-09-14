@@ -12,7 +12,7 @@ body {
 main {
 	display: flex;
 	align-content: center;
-	justify-content: center;
+	/* justify-content: center; */
 }
 
 .works-section {
@@ -109,16 +109,15 @@ main {
 
 .tech-list.rubby {
 	width: 480px;
-	
-width: 53px;
-height: 24px;
-background: #EBEBFF;
-border-radius: 8px;
+	width: 53px;
+	height: 24px;
+	background: #EBEBFF;
+	border-radius: 8px;
 }
 
 
-button {
-	padding: 12px;
+.modal-btn {
+	padding: 10px 12px;
 	width: 144px;
 	height: 48px;
 	border: 1px solid #6070FF;

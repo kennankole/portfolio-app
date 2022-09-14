@@ -3,8 +3,6 @@
 html,
 body {
   font-family: Poppins, sans-serif;
-  background: #e5e5e5;
-  width: 1280px;
   scroll-behavior: smooth;
   transition-duration: 1ms;
 }
@@ -22,6 +20,7 @@ header {
   align-items: center;
   text-align: center;
   background: #fff;
+  padding: 30px;
 }
 
 .left a {

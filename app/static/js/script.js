@@ -30,7 +30,7 @@ const cardOne = `
 			</ul>
 			<p class="works-para">${portfolioCard.paragraph}</p>
 			<ul class="tech-list">${renderLanguagesLi(portfolioCard.language1)}</ul>
-			<button type="submit" onclick="loadModalPopup()">${portfolioCard.button}</button>
+			<button type="submit" class="modal-btn" onclick="loadModalPopup()">${portfolioCard.button}</button>
 		</div>
 	</div>
 `;
@@ -44,7 +44,7 @@ const cardTwo = `
 			</ul>
 			<p class="works-para">${portfolioCard.paragraph}</p>
 			<ul class="tech-list">${renderLanguagesLi(portfolioCard.language2)}</ul>
-			<button type="submit" onclick="loadModalPopup()">${portfolioCard.button}</button>
+			<button type="submit" class="modal-btn" onclick="loadModalPopup()">${portfolioCard.button}</button>
 		</div>
 		<img src=${portfolioCard.image2} alt="background image" class="work-img">
 	</div>
@@ -61,7 +61,7 @@ const cardThree = `
 			</ul>
 			<p class="works-para">${portfolioCard.paragraph}</p>
 			<ul class="tech-list">${renderLanguagesLi(portfolioCard.language2)}</ul>
-			<button type="submit" onclick="loadModalPopup()">${portfolioCard.button}</button>
+			<button type="submit" class="modal-btn" onclick="loadModalPopup()">${portfolioCard.button}</button>
 		</div>
 	</div>
 `;
@@ -75,7 +75,7 @@ const cardFour = `
 			</ul>
 			<p class="works-para">${portfolioCard.paragraph}</p>
 			<ul class="tech-list">${renderLanguagesLi(portfolioCard.language2)}</ul>
-			<button type="submit" onclick="loadModalPopup()">${portfolioCard.button}</button>
+			<button type="submit" class="modal-btn" onclick="loadModalPopup()">${portfolioCard.button}</button>
 		</div>
 		<img src=${portfolioCard.image4} alt="background image" class="work-img">
 	</div>
