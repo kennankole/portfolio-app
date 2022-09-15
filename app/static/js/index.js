@@ -14,14 +14,5 @@ document.querySelectorAll(".menu-item").forEach(e => e.addEventListener("click",
 }));
 
 
-function greetings(){
-    console.log("Hello there ken");
-}
 
-const docssArray = [
-	document.getElementById("card1"),
-	document.getElementById("card2"),
-	document.getElementById("card3"),
-	document.getElementById("card4"),
-	
-]
+

@@ -53,15 +53,15 @@ const cardTwo = `
 
 
 const cardThree = `
-  <div class="works-section mobile">
+  <div class="works-section">
 		<img src=${portfolioCard.image3} alt="background image" class="work-img">
-    <div class="left-frame mobile">
-			<h1 class="work-title mobile">${portfolioCard.title[0]}</h1>
-			<ul class="works-badges mobile">
+    <div class="left-frame">
+			<h1 class="work-title">${portfolioCard.title[0]}</h1>
+			<ul class="works-badges">
 				${renderLanguagesLi(portfolioCard.badge2)}
 			</ul>
-			<p class="works-para mobile">${portfolioCard.paragraph}</p>
-			<ul class="tech-list mobile">${renderLanguagesLi(portfolioCard.language2)}</ul>
+			<p class="works-para">${portfolioCard.paragraph}</p>
+			<ul class="tech-list">${renderLanguagesLi(portfolioCard.language2)}</ul>
 			<button type="submit" class="modal-btn mobile" onclick="loadModalPopup()">${portfolioCard.button}</button>
 		</div>
 	</div>
@@ -163,13 +163,14 @@ const modalWindow = {
 							It has survived not only five centuries, but also the leap into electronic typesetting, 
 							remaining essent`,
 	technologies: ["html", "css", "javascript", "github", "ruby", "Bootstrap"],
+	lineImg: "/app/static/images/new-imgs/Vector-4.svg",
 	buttons: [`See live  <img src="/app/static/images/new-imgs/Icon-Export.svg">`, `Source demo <img src="/app/static/images/new-imgs/github.svg">`]
 }
 
 
 const modals = `
-		<section class="detail-section" id="myModal">
-			<div class="heading">
+		<section id="myModal">
+			<div class="heading modal">
 				<h1>${portfolioCard.title[0]}</h1>
 				<span class="close">&times;</span>
 			</div>
@@ -196,6 +197,36 @@ const modals = `
 	</div>
 `;
 
+const mobileMod = `
+	<section id="myMobileModal">
+		<div class="heading modal">
+			<h1>${portfolioCard.title[0]}</h1>
+			<span class="close-mobile">&times;</span>
+		</div>
+		<ul class="works-badges mobile modal">
+			${renderLanguagesLi(portfolioCard.badge1)}
+		</ul>
+		<img src="${modalWindow.mobileImage}" alt="background image">
+		<div class="bottoms-container">
+			<div class="mob-para modal">
+				<p>${modalWindow.mobilePara}</p>
+			</div>
+			<div class="mob-tech">
+				<ul class="tech-list mobile modal">${renderLanguagesLi(portfolioCard.language1)}</ul>
+				</ul>
+				<img src="${modalWindow.lineImg}" alt="seperator image">
+				<div class="demo-btns">
+				<ul class="buttons">
+					${renderLanguagesLi(modalWindow.buttons)}
+				<ul>
+				</div>
+			</div>
+		</div>
+	</section>
+`
+
+
+
 // Desktop
 document.getElementById("card1").insertAdjacentHTML('beforeend', cardOne);
 document.getElementById("card2").insertAdjacentHTML("beforeend", cardTwo);
@@ -207,16 +238,31 @@ document.getElementById("mobile2").insertAdjacentHTML("beforeend", cardFourMobil
 document.getElementById("mobile3").insertAdjacentHTML("beforeend", cardThreeMobile);
 document.getElementById("mobile4").insertAdjacentHTML("beforeend", cardTwoMobile);
 
+document.body.innerHTML += mobileMod;
+document.body.innerHTML += modals;
 
 
-function windowSize(){
-	if(document.body.clientWidth > 768){
-		docsArray.forEach((a, b) => {
-			const bb = cards[b];
-			// console.log(a, bb);
-			a.insertAdjacentHTML("beforeend", bb);
-		});
-	}else {
-		console.log("You are viewing the mobile version")
-	}
+
+// Modal close
+function close(){
+	document.getElementById("myModal").style.display = 'none';
 }
+
+function closeMobile(){
+	document.getElementById("myMobileModal").style.display = 'none';
+}
+
+// Modal load
+function loadModalPopup(){
+	let span = document.getElementsByClassName("close")[0];
+	if (document.body.clientWidth > 768){
+		document.getElementById("myModal").style.display = 'block';
+		span.addEventListener("click", close);
+	} else if (document.body.clientWidth <= 768) {
+        let spann = document.getElementsByClassName("close-mobile")[0];
+		document.getElementById("myMobileModal").style.display = 'block';
+		spann.addEventListener("click", closeMobile);
+	}	
+}
+
+

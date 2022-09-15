@@ -234,7 +234,7 @@ ul {
 .tech-list {
 	display: flex;
 	gap: 10px;
-	padding: 5px 30px;
+	padding: 5px 40px;
 	list-style-type: none;
 	margin-bottom: 20px;
 }
@@ -253,9 +253,6 @@ ul {
 	color: #6070FF;
 }
 
-.tech-list > li:nth-of-type(1) {
-	width: 53px;
-}
 
 
 button {
@@ -275,23 +272,22 @@ button {
 
 /*+++++++++++++++++++++++++++++Modal detail++++++++++++++++++++++++++*/
 #myModal {
-	height: 100%;
 	width: 1156px;
+	height: 100%;
 	border-radius: 16px;
 	display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px; 
+  /* padding-top: 100px;  */
   left: 0;
   top: 0;
   overflow: auto;
-	/* margin-left: 50px; */
 	background-color: #FFFFFF;
 	border: 1px solid #EBECF0;
 	box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
 	border-radius: 16px;
-	padding: 0 20px;
-	/* transition: 0.5s ease-in; */
+	/* padding: 0 20px; */
+	margin-left: 75px;
 }
 
 .heading {
@@ -304,6 +300,7 @@ button {
 	width: 1056px;
 	padding: 20px;
 }
+
 
 .close {
 	color: #67798E;
@@ -334,6 +331,7 @@ button {
 	flex-wrap: wrap;
 	gap: 12px;
 	width: 290px;
+	padding: 0;
 }
 
 .tech-list.modal > li {
@@ -453,6 +451,7 @@ button {
 	font-size: 40px;
 	line-height: 52px;
 	color: #091E42;
+	margin-top: 100px;
 }
 
 
@@ -652,13 +651,11 @@ input[type="submit"]:hover::before {
 
 
 @media screen and (min-width:768px) {
-	#myMobileModal  {
-		display: none;
-	}
 	#mobile1,
 	#mobile2,
 	#mobile3,
-	#mobile4 {
+	#mobile4, 
+	#myMobileModal {
 		display: none;
 	}
 	#arrowmobile1,
@@ -926,16 +923,7 @@ input[type="submit"]:hover::before {
 	}
 	
 
-	.tech-list.mobile {
-		display: flex;
-		width: 213px;
-		height: 24px;
-		gap: 9px;
-		list-style-type: none;
-		margin-bottom: 20px;
-		padding: 10px 45px;
-		
-	}
+
 	
 	.tech-list > li {
 		align-items: center;
@@ -963,32 +951,48 @@ input[type="submit"]:hover::before {
 		line-height: 24px;
 		letter-spacing: 0.03em;
 		color: #396DF2;
-		margin-left: 45px;
+		margin-left: 40px;
 	}
 	
 
 	/*++++++++++++Mobile modal++++++++++++++++*/
 	#myMobileModal {
-		width: 343px;
-		height: 713px;
-		height: 100%;
-		border-radius: 16px;
 		display: none;
   	position: fixed;
   	z-index: 1;
-  	padding-top: 100px; 
-  	left: 0;
-  	top: 0;
   	overflow: auto;
-		margin-left: 15px;
 		background-color: #FFFFFF;
 		border: 1px solid #EBECF0;
 		box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
 		border-radius: 16px;
-		padding: 0 20px;
-		transition: 0.5s ease-in;
+		padding: 0 20px; 
+		transition: 0.5s ease-in; 
+		height: 713px;
+		width: 343px;
+		left: 16px;
+		top: 0;
+		border-radius: 16px;
+		padding: 16px;
 	}
 
+	.works-badges.modal {
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 13px;
+		color: #344563;
+		padding: 5px;
+	}
+
+	.mob-para.modal {
+		padding: 5px;
+	}
+
+	.heading.modal > h1 {
+		height: 36px;
+		width: 259px;
+		padding: 25px 5px;
+	}
 	.mob-para {
 		width: 311px;
 		height: 220px;
@@ -1009,7 +1013,7 @@ input[type="submit"]:hover::before {
 	
 	.buttons > li:nth-of-type(1){
 		padding: 5px 22px;
-		width: 90px;
+		width: 100px;
 		height: 35px;
 		border: 1px solid #6070FF;
 		border-radius: 8px;
@@ -1020,8 +1024,7 @@ input[type="submit"]:hover::before {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		padding: 5px 10px;
-		width: 156px;
+		width: 176px;
 		height: 48px;
 		border: 1px solid #6070FF;
 		border-radius: 8px;
@@ -1029,7 +1032,7 @@ input[type="submit"]:hover::before {
 
 	.buttons > li{
 		font-weight: 600;
-		font-size: 13px;
+		font-size: 14px;
 	}
 
 	.close-mobile {
@@ -1065,6 +1068,7 @@ input[type="submit"]:hover::before {
 	line-height: 52px;
 	color: #172B4D;
 	box-sizing: border-box; 
+	margin-top: 100px;
 }
 
 .left-block.about > p {
