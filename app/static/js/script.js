@@ -169,7 +169,7 @@ const modalWindow = {
 
 
 const modals = `
-		<section id="myModal">
+		<section id="my-modal">
 			<div class="heading modal">
 				<h1>${portfolioCard.title[0]}</h1>
 				<span class="close">&times;</span>
@@ -198,7 +198,7 @@ const modals = `
 `;
 
 const mobileMod = `
-	<section id="myMobileModal">
+	<section id="my-mobile-modal">
 		<div class="heading modal">
 			<h1>${portfolioCard.title[0]}</h1>
 			<span class="close-mobile">&times;</span>
@@ -245,22 +245,22 @@ document.body.innerHTML += modals;
 
 // Modal close
 function close(){
-	document.getElementById("myModal").style.display = 'none';
+	document.getElementById("my-modal").style.display = 'none';
 }
 
 function closeMobile(){
-	document.getElementById("myMobileModal").style.display = 'none';
+	document.getElementById("my-mobile-modal").style.display = 'none';
 }
 
 // Modal load
 function loadModalPopup(){
 	let span = document.getElementsByClassName("close")[0];
 	if (document.body.clientWidth > 768){
-		document.getElementById("myModal").style.display = 'block';
+		document.getElementById("my-modal").style.display = 'block';
 		span.addEventListener("click", close);
 	} else if (document.body.clientWidth <= 768) {
         let spann = document.getElementsByClassName("close-mobile")[0];
-		document.getElementById("myMobileModal").style.display = 'block';
+		document.getElementById("my-mobile-modal").style.display = 'block';
 		spann.addEventListener("click", closeMobile);
 	}	
 }
