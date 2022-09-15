@@ -12,3 +12,16 @@ document.querySelectorAll(".menu-item").forEach(e => e.addEventListener("click",
     humberger.classList.remove("change");
     navMenu.classList.remove("show-menu");
 }));
+
+
+function greetings(){
+    console.log("Hello there ken");
+}
+
+const docssArray = [
+	document.getElementById("card1"),
+	document.getElementById("card2"),
+	document.getElementById("card3"),
+	document.getElementById("card4"),
+	
+]

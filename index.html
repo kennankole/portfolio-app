@@ -7,22 +7,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 	<script src="https://kit.fontawesome.com/928599f9b9.js" crossorigin="anonymous"></script>
-
-	<link rel="stylesheet" href="app/static/landing-page.css">
-	<link rel="stylesheet" href="app/static/main.css">
-	<link rel="stylesheet" href="app/static/portfolio.css">
-	<link rel="stylesheet" href="app/static/responsive.css">
+	<!-- <link rel="stylesheet" href="app/static/landing-page.css"> -->
+	<!-- <link rel="stylesheet" href="app/static/main.css"> -->
+	<!-- <link rel="stylesheet" href="app/static/portfolio.css"> -->
+	<!-- <link rel="stylesheet" href="app/static/responsive.css"> -->
+	<!-- <link rel="stylesheet" href="app/static/contact.css"> -->
 	<link rel="stylesheet" href="/app/static/script.css">
-	<link rel="stylesheet" href="app/static/contact.css">
-	
-	<script src="app/static/js/index.js" defer></script>
 	<script src="/app/static/js/script.js" defer></script>
+	<script src="app/static/js/index.js" defer></script>
 	<title>My Portfolio</title>
 </head>
 <img src="../" alt="">
 <body>
 	<main>
-		<div class="container">
 			<!-- Navigation menu -->
 			<header>
 				<nav>
@@ -44,7 +41,6 @@
 					</ul>
 				</nav>
 			</header>
-
 				<!-- main section -->
 			<section class="main-section">
 				<div class="main-background">
@@ -76,14 +72,20 @@
 
 			<!--Portfolio card 1-->
 			<div id="portfolio">
-				<section class="portfolio-card-section" id="card1"></section>
-				<section class="portfolio-card-section" id="card2"></section>
-				<section class="portfolio-card-section" id="card3"></section>
-				<section class="portfolio-card-section" id="card4"></section>
+				<section id="card1"></section>
+				<section id="card2"></section>
+				<section id="card3"></section>
+				<section id="card4"></section>
+				<!--Mobile-->
+				<section id="mobile1"></section>
+				<section id="mobile2"></section>
+				<section id="mobile3"></section>
+				<section id="mobile4"></section>
+
 			</div>
 			<!-- About me and form section for desktop -->
 			<div id="about">
-				<section class="about-me-section">
+				<section class="about-me-section mobile">
 					<div class="about-me-main">
 						<!--About myself left -->
 						<div class="left-block about">
@@ -132,21 +134,21 @@
 										<h5>Frameworks</h5>
 										<img src="app/static/images/arrow.svg" alt="A bullet icon image used to highlight words" class="arrow-mobile">
 									</li>
-									<li><img class="mobile-sp" src="app/static/images/Separator-Bottom.svg" alt="A bullet icon image used to highlight words"></li>
-									<li><img src="app/static/images/Separator-Bottom-(1).svg" alt="A bullet icon image used to highlight words" id="about-seperator-one"></li>
+									<img class="mobile-sp" src="app/static/images/new-imgs/Separator-Bottom.svg" alt="A bullet icon image used to highlight words" id="arrowmobile1">
+									<img src="app/static/images/Separator-Bottom-(1).svg" alt="A bullet icon image used to highlight words" id="about-seperator-one">
 									<li id="about-skills">
 										<h5>Skills</h5>
 										<img src="app/static/images/arrow.svg" alt="A bullet icon image used to highlight words" class="arrow-mobile">
 									</li>
-									<li><img class="mobile-sp" src="app/static/images/Separator-Bottom.svg" alt="A bullet icon image used to highlight words"></li>
-									<li><img src="app/static/images/Separator-Bottom-(1).svg" alt="A bullet icon image used to highlight words" id="about-seperator-two">
+									<img class="mobile-sp" src="app/static/images/Separator-Bottom.svg" alt="A bullet icon image used to highlight words" id="arrowmobile2">
+									<img src="app/static/images/Separator-Bottom-(1).svg" alt="A bullet icon image used to highlight words" id="about-seperator-two">
 								</ul>
 							</div>
 						</div>
 					</div>
 				</section>
 				<!--Mobile about me section -->
-				<section class="section-elements">
+				<!-- <section class="section-elements">
 					<div class="section-about">
 						<div class="section-block">
 							<div class="about-me-text">
@@ -204,7 +206,7 @@
 							</div>
 						</div>
 					</div>
-				</section>
+				</section> -->
 			</div>
 			<!-- Contact form section for desktop -->
 			<div id="contact">
@@ -237,44 +239,12 @@
 										</li>
 									</ul>
 								</form>
+							<img src="/app/static/images/new-imgs/Shape.svg" alt="" id="downseperator">
 							</div>
-						</div>
-					</div>
-				</section>
-				<!-- Mobile -->
-				<section class="section-elements contact">
-					<div class="contact-form">
-						<div class="form-bg">
-							<div class="form-text-container">
-								<p id="form-title">Contact Me</p>
-								<p id="form-text">If you have an application you are interested in developing,
-									a feature that you need built or a project that needs coding.
-									I’d love to help with it
-								</p>
-							</div>
-							<form action="https://formspree.io/f/xpznwqnd" method="POST">
-								<ul>
-									<li>
-										<input id="names" type="text" placeholder="Full Name" maxlength="30" required>
-									</li>
-									<li>
-										<input id="emails" type="email" placeholder="Email Address" maxlength="30" required>
-									</li>
-									<li>
-										<textarea id="subjects" name="subject" placeholder="Write your message here" maxlength="500"
-											required></textarea>
-									</li>
-									<li>
-										<input id="sends" type="submit" value="Get In Touch  >>">	
-									</li>
-								</ul>
-							</form>
-							<img src="app/static/images/Shape.svg"  alt="A Horizontal line image used to seperate words" class="form-img">
 						</div>
 					</div>
 				</section>
 			</div>
-		</div>
 	</main>
 </body>
 </html>
