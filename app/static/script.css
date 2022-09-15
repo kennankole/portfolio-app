@@ -467,7 +467,8 @@ button {
 
 .about-lang-frame {
   display: flex;
-  flex-direction: column;
+
+  /* flex-direction: column; */
   gap: 20px;
   padding: 10px;
 }
@@ -1023,6 +1024,10 @@ input[type="submit"]:hover::before {
   }
 
   /* ----------------------------MOBILE ABOUT ME SECTION------------------------- */
+  .about-lang-frame {
+    flex-direction: column;
+  }
+
   .form-text > p {
     width: 327px;
     font-family: Poppins, sans-serif;
@@ -1043,6 +1048,7 @@ input[type="submit"]:hover::before {
     height: 1263px;
     margin: 0 auto;
     box-sizing: border-box;
+    border-top-right-radius: 90px;
   }
 
   .left-block.about > h3 {
