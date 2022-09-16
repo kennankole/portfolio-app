@@ -13,7 +13,7 @@
 	<title>My Portfolio</title>
 </head>
 
-<body onload="loadModalPopup()">
+<body>
 	<main>
 			<!-- Navigation menu -->
 			<header>
@@ -157,14 +157,16 @@
 								</p>
 							</div>
 							<div class="container-form">
-								<form action="https://formspree.io/f/xpznwqnd" method="POST">
+								<form action="https://formspree.io/f/xpznwqnd" method="POST" id="form">
 									<ul>
 										<li>
 											<input id="name" type="text" placeholder="Full Name" maxlength="30" required>
 										</li>
 										<li>
-											<input id="email" type="email" placeholder="Email Address" maxlength="30" required>
+											<small></small>
+											<input id="email" name="email" type="email" placeholder="Email Address" maxlength="30" required>
 										</li>
+										
 										<li>
 											<textarea id="subject" name="subject" placeholder="Write your message here" maxlength="500"
 												required></textarea>

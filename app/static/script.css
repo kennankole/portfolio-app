@@ -1237,3 +1237,17 @@ input[type="submit"]:hover::before {
     padding-top: 80px;
   }
 }
+
+small {
+  color: #ff5733;
+  background-color: #f7f7f9;
+  font-size: 12px;
+  font-weight: 900;
+  font-family: Poppins, sans-serif;
+  padding: 5px;
+  transition: 0.5ms;
+  margin-left: 10px;
+  border-radius: 3px;
+  display: none;
+  width: 200px;
+}

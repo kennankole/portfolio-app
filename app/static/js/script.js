@@ -266,3 +266,18 @@ function loadModalPopup(){
 }
 
 
+const form = document.getElementById('form');
+const email = document.getElementById("email");
+const error = document.querySelector("small");
+form.addEventListener('submit', (e) => {
+	if(email.value !== email.value.toLowerCase()){
+		error.innerHTML = "Email should be in lower case";
+		error.style.display = 'block';
+		e.preventDefault();
+	}
+})
+
+
+
+
+
