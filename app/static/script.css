@@ -290,7 +290,7 @@ button {
 
 /* +++++++++++++++++++++++++++++Modal detail++++++++++++++++++++++++++ */
 #my-modal {
-  width: 1156px;
+    width: 1156px;
   height: 100%;
   display: none;
   position: fixed;
@@ -305,8 +305,6 @@ button {
   border: 1px solid #ebecf0;
   box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
   border-radius: 16px;
-
-  /* box-sizing: border-box; */
 }
 
 #mobile-modal-img {
@@ -388,7 +386,9 @@ button {
   height: 924px;
   background: #fff;
 }
-
+#mobile-modal-img {
+  padding: 0 15px;
+}
 .contact-section {
   background-color: #6070ff;
   border-top-left-radius: 150px;
@@ -1278,4 +1278,18 @@ input[type="submit"]:hover::before {
   #downseperator {
     padding-top: 80px;
   }
+}
+
+small {
+  color: #ff5733;
+  background-color: #f7f7f9;
+  font-size: 12px;
+  font-weight: 900;
+  font-family: Poppins, sans-serif;
+  padding: 5px;
+  transition: 0.5ms;
+  margin-left: 10px;
+  border-radius: 3px;
+  display: none;
+  width: 200px;
 }

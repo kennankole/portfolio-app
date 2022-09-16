@@ -177,10 +177,10 @@ const modals = `
 			<ul class="works-badges">
 				${renderLanguagesLi(portfolioCard.badge1)}
 			</ul>
-			<img src="${modalWindow.image}" alt="background image">
+			<img src="${modalWindow.modalimage}" alt="background image">
 			<div class="bottom-container">
 				<div class="para">
-					<p>${modalWindow.modalPara}</p>
+					<p>${modalWindow.modalmodalPara}</p>
 				</div>
 				<div class="technologies">
 					<ul class="tech-list modal">
@@ -238,8 +238,8 @@ document.getElementById("mobile2").insertAdjacentHTML("beforeend", cardFourMobil
 document.getElementById("mobile3").insertAdjacentHTML("beforeend", cardThreeMobile);
 document.getElementById("mobile4").insertAdjacentHTML("beforeend", cardTwoMobile);
 
-document.body.innerHTML += mobileMod;
-document.body.innerHTML += modals;
+// document.body.innerHTML += mobileMod;
+// document.body.innerHTML += modals;
 
 
 
@@ -264,5 +264,44 @@ function loadModalPopup(){
 		spann.addEventListener("click", closeMobile);
 	}	
 }
+
+
+const form = document.getElementById('form');
+const femail = document.getElementById("email");
+const fname = document.getElementById("name");
+const fmessage = document.getElementById("subject");
+const error = document.querySelector("small");
+
+form.addEventListener('submit', (e) => {
+	if(femail.value !== femail.value.toLowerCase()){
+		error.innerHTML = "Email should be in lower case";
+		error.style.display = 'block';
+		e.preventDefault();
+	}
+})
+
+// Local Storage 
+
+
+function saveUserData(){
+	const data = {
+		name: localStorage.setItem('Name', fname.value),
+		email: localStorage.setItem("Email", femail.value),
+		message: localStorage.setItem("Message", fmessage.value)
+	};
+	return data;
+}
+
+femail.value = localStorage.getItem("Email");
+fname.value = localStorage.getItem("Name");
+fmessage.value = localStorage.getItem("Message");
+
+saveUserData();
+
+fname.onchange = saveUserData
+femail.onchange = saveUserData;
+fmessage.onchange = saveUserData;
+
+
 
 
