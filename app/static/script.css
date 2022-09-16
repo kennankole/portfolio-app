@@ -954,7 +954,6 @@ input[type="submit"]:hover::before {
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
     height: 713px;
-    height: 100%;
     width: 343px;
     left: 0;
     right: 0;
@@ -1276,18 +1275,4 @@ input[type="submit"]:hover::before {
   #downseperator {
     padding-top: 80px;
   }
-}
-
-small {
-  color: #ff5733;
-  background-color: #f7f7f9;
-  font-size: 12px;
-  font-weight: 900;
-  font-family: Poppins, sans-serif;
-  padding: 5px;
-  transition: 0.5ms;
-  margin-left: 10px;
-  border-radius: 3px;
-  display: none;
-  width: 200px;
 }
