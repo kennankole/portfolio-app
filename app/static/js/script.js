@@ -177,18 +177,18 @@ const modals = `
 			<ul class="works-badges">
 				${renderLanguagesLi(portfolioCard.badge1)}
 			</ul>
-			<img src="${modalimage}" alt="background image">
+			<img src="${modalWindow.modalimage}" alt="background image">
 			<div class="bottom-container">
 				<div class="para">
-					<p>${modalmodalPara}</p>
+					<p>${modalWindow.modalmodalPara}</p>
 				</div>
 				<div class="technologies">
 					<ul class="tech-list modal">
-						${renderLanguagesLi(modaltechnologies)}
+						${renderLanguagesLi(modalWindow.technologies)}
 					</ul>
 					<div class="demo-btns">
 					<ul class="buttons">
-						${renderLanguagesLi(modalbuttons)}
+						${renderLanguagesLi(modalWindow.buttons)}
 					<ul>
 					</div>
 				</div>
@@ -206,18 +206,18 @@ const mobileMod = `
 		<ul class="works-badges mobile modal">
 			${renderLanguagesLi(portfolioCard.badge1)}
 		</ul>
-		<img src="${modalmobileImage}" alt="background image">
+		<img src="${modalWindow.mobileImage}" alt="background image">
 		<div class="bottoms-container">
 			<div class="mob-para modal">
-				<p>${modalmobilePara}</p>
+				<p>${modalWindow.mobilePara}</p>
 			</div>
 			<div class="mob-tech">
 				<ul class="tech-list mobile modal">${renderLanguagesLi(portfolioCard.language1)}</ul>
 				</ul>
-				<img src="${modallineImg}" alt="seperator image">
+				<img src="${modalWindow.lineImg}" alt="seperator image">
 				<div class="demo-btns">
 				<ul class="buttons">
-					${renderLanguagesLi(modalbuttons)}
+					${renderLanguagesLi(modalWindow.buttons)}
 				<ul>
 				</div>
 			</div>
@@ -238,8 +238,8 @@ document.getElementById("mobile2").insertAdjacentHTML("beforeend", cardFourMobil
 document.getElementById("mobile3").insertAdjacentHTML("beforeend", cardThreeMobile);
 document.getElementById("mobile4").insertAdjacentHTML("beforeend", cardTwoMobile);
 
-document.body.innerHTML += mobileMod;
-document.body.innerHTML += modals;
+// document.body.innerHTML += mobileMod;
+// document.body.innerHTML += modals;
 
 
 
@@ -298,9 +298,9 @@ fmessage.value = localStorage.getItem("Message");
 
 saveUserData();
 
-fname.onchange = saveUserData()
-femail.onchange = saveUserData();
-fmessage.onchange = saveUserData();
+fname.onchange = saveUserData
+femail.onchange = saveUserData;
+fmessage.onchange = saveUserData;
 
 
 
