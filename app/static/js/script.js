@@ -177,18 +177,18 @@ const modals = `
 			<ul class="works-badges">
 				${renderLanguagesLi(portfolioCard.badge1)}
 			</ul>
-			<img src="${modalWindow.image}" alt="background image">
+			<img src="${modalimage}" alt="background image">
 			<div class="bottom-container">
 				<div class="para">
-					<p>${modalWindow.modalPara}</p>
+					<p>${modalmodalPara}</p>
 				</div>
 				<div class="technologies">
 					<ul class="tech-list modal">
-						${renderLanguagesLi(modalWindow.technologies)}
+						${renderLanguagesLi(modaltechnologies)}
 					</ul>
 					<div class="demo-btns">
 					<ul class="buttons">
-						${renderLanguagesLi(modalWindow.buttons)}
+						${renderLanguagesLi(modalbuttons)}
 					<ul>
 					</div>
 				</div>
@@ -206,18 +206,18 @@ const mobileMod = `
 		<ul class="works-badges mobile modal">
 			${renderLanguagesLi(portfolioCard.badge1)}
 		</ul>
-		<img src="${modalWindow.mobileImage}" alt="background image">
+		<img src="${modalmobileImage}" alt="background image">
 		<div class="bottoms-container">
 			<div class="mob-para modal">
-				<p>${modalWindow.mobilePara}</p>
+				<p>${modalmobilePara}</p>
 			</div>
 			<div class="mob-tech">
 				<ul class="tech-list mobile modal">${renderLanguagesLi(portfolioCard.language1)}</ul>
 				</ul>
-				<img src="${modalWindow.lineImg}" alt="seperator image">
+				<img src="${modallineImg}" alt="seperator image">
 				<div class="demo-btns">
 				<ul class="buttons">
-					${renderLanguagesLi(modalWindow.buttons)}
+					${renderLanguagesLi(modalbuttons)}
 				<ul>
 				</div>
 			</div>
@@ -264,5 +264,4 @@ function loadModalPopup(){
 		spann.addEventListener("click", closeMobile);
 	}	
 }
-
 
