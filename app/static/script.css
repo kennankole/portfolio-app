@@ -296,15 +296,20 @@ button {
   position: fixed;
   z-index: 1;
   left: 0;
+  right: 0;
   top: 0;
+  bottom: 0;
+  margin: auto;
   overflow: auto;
   background-color: #fff;
   border: 1px solid #ebecf0;
   box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
   border-radius: 16px;
+  box-sizing: border-box;
+}
 
-  /* padding: 0 20px; */
-  margin-left: 75px;
+#mobile-modal-img{
+  padding: 0 15px;
 }
 
 .heading {
@@ -346,7 +351,7 @@ button {
   flex-wrap: wrap;
   gap: 12px;
   width: 290px;
-  padding: 0;
+  padding: 0 15px;
 }
 
 .tech-list.modal > li {
@@ -702,17 +707,17 @@ input[type="submit"]:hover::before {
     top: 85px;
     width: 375px;
     z-index: auto;
-    height: 100%;
+    height: 812px;
     background-color: #6070ff;
-    margin-top: -60px;
+    margin-top: -85px;
     text-align: start;
     opacity: 0.8;
     padding: 15px;
     position: fixed;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
   }
 
-  .show-menu a {
+   .show-menu a {
     font-weight: 600;
     margin: 35px auto;
     color: #fff;
@@ -947,10 +952,14 @@ input[type="submit"]:hover::before {
     transition: 0.5s ease-in;
     height: 713px;
     width: 343px;
-    left: 16px;
-    top: 0;
+    left: calc(35% - 343px/2);
+    right: calc(50% - 343px/2);
+    top: 60px;
+    bottom: 60px;
     border-radius: 16px;
     padding: 16px;
+    border: 1px solid black;
+    margin: auto;
   }
 
   .works-badges.modal {
@@ -959,17 +968,17 @@ input[type="submit"]:hover::before {
     font-weight: 600;
     font-size: 13px;
     color: #344563;
-    padding: 5px;
+    padding: 15px;
   }
 
   .mob-para.modal {
-    padding: 5px;
+    padding: 15px;
   }
 
   .heading.modal > h1 {
     height: 36px;
-    width: 259px;
-    padding: 25px 5px;
+    /* width: 259px; */
+    /* padding: 25px 5px; */
   }
 
   .mob-para {

@@ -206,7 +206,7 @@ const mobileMod = `
 		<ul class="works-badges mobile modal">
 			${renderLanguagesLi(portfolioCard.badge1)}
 		</ul>
-		<img src="${modalWindow.mobileImage}" alt="background image">
+		<img src="${modalWindow.mobileImage}" alt="background image" id="mobile-modal-img">
 		<div class="bottoms-container">
 			<div class="mob-para modal">
 				<p>${modalWindow.mobilePara}</p>
