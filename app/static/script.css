@@ -308,7 +308,7 @@ button {
   box-sizing: border-box;
 }
 
-#mobile-modal-img{
+#mobile-modal-img {
   padding: 0 15px;
 }
 
@@ -714,10 +714,11 @@ input[type="submit"]:hover::before {
     opacity: 0.8;
     padding: 15px;
     position: fixed;
+
     /* box-sizing: border-box; */
   }
 
-   .show-menu a {
+  .show-menu a {
     font-weight: 600;
     margin: 35px auto;
     color: #fff;
@@ -949,17 +950,16 @@ input[type="submit"]:hover::before {
     background-color: #fff;
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
-    transition: 0.5s ease-in;
     height: 713px;
     width: 343px;
-    left: calc(35% - 343px/2);
-    right: calc(50% - 343px/2);
+    left: 0;
+    right: 0;
     top: 60px;
     bottom: 60px;
     border-radius: 16px;
     padding: 16px;
-    border: 1px solid black;
-    margin: auto;
+    transition: 200ms ease-in-out;
+    max-width: 80%;
   }
 
   .works-badges.modal {
@@ -977,7 +977,9 @@ input[type="submit"]:hover::before {
 
   .heading.modal > h1 {
     height: 36px;
+
     /* width: 259px; */
+
     /* padding: 25px 5px; */
   }
 
