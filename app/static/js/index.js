@@ -12,3 +12,7 @@ document.querySelectorAll(".menu-item").forEach(e => e.addEventListener("click",
     humberger.classList.remove("change");
     navMenu.classList.remove("show-menu");
 }));
+
+
+
+

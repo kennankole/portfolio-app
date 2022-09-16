@@ -7,18 +7,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 	<script src="https://kit.fontawesome.com/928599f9b9.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="app/static/landing-page.css">
-	<link rel="stylesheet" href="app/static/main.css">
-	<link rel="stylesheet" href="app/static/portfolio.css">
-	<link rel="stylesheet" href="app/static/contact.css">
-	<link rel="stylesheet" href="app/static/responsive.css">
+	<link rel="stylesheet" href="/app/static/script.css">
 	<script src="app/static/js/index.js" defer></script>
+	<script src="/app/static/js/script.js" defer></script>
 	<title>My Portfolio</title>
 </head>
 
 <body>
 	<main>
-		<div class="container">
 			<!-- Navigation menu -->
 			<header>
 				<nav>
@@ -40,7 +36,6 @@
 					</ul>
 				</nav>
 			</header>
-
 				<!-- main section -->
 			<section class="main-section">
 				<div class="main-background">
@@ -72,141 +67,20 @@
 
 			<!--Portfolio card 1-->
 			<div id="portfolio">
-				<section class="portfolio-card-section">
-					<div class="right-block">
-						<img src="app/static/images/dsk-portfolio-card.svg" alt="An art image depicting nature" class="card-img">
-					</div>
-					<!--Mobile-->
-					<div class="section-one-bg"></div>
-					<div class="left-block">
-						<h3>Tonic</h3>
-						<div class="left-frame">
-							<ul>
-								<li>CANOPY</li>
-								<li><img src="app/static/images/Counter.svg" alt="A bullet icon image used to highlight words"></li>
-								<li>Back End Dev</li>
-								<li><img src="app/static/images/Counter.svg" alt="A bullet icon image used to highlight words"></li>
-								<li>2015</li>
-							</ul>
-						</div>
-						<p>A daily selection of privately personalized reads;no accounts or sign-ups required.</p>
-						<div class="languages">
-							<ul class="lan-one">
-								<li class="lan-html">html</li>
-								<li class="lan-css">css</li>
-								<li class="lan-js">javascript</li>
-							</ul>
-						</div>
-						<button type="submit" class="see-project-btn">See Project</button>
-					</div>
-				</section>
+				<section id="card1"></section>
+				<section id="card2"></section>
+				<section id="card3"></section>
+				<section id="card4"></section>
+				<!--Mobile-->
+				<section id="mobile1"></section>
+				<section id="mobile2"></section>
+				<section id="mobile3"></section>
+				<section id="mobile4"></section>
 
-				<!-- Portfolio card 2 -->
-				<section class="portfolio-card-section">
-					<div class="section-two-bg"></div>
-					<div class="left-block">
-						<h3>Multi-Post Stories</h3>
-						<div class="left-frame">
-							<ul class="frame-one">
-								<li class="fb-text">FACEBOOK</li>
-								<li><img src="app/static/images/Counter.svg" alt="A bullet icon image used to highlight words"></li>
-								<li class="left-skill">Full Stack Dev</li>
-								<li><img src="app/static/images/Counter.svg" alt="A bullet icon image used to highlight words"></li>
-								<li class="left-year">2015</li>
-							</ul>
-						</div>
-						<p>
-							Experimental content creation feature that allows users to add to an existing
-							story over the course of a day without spamming their friends.
-						</p>
-						<div class="languages">
-							<ul class="lan-one">
-								<li class="lan-html">html</li>
-								<li class="lan-ruby">Ruby on rails</li>
-								<li class="lan-css">css</li>
-								<li class="lan-js">javascript</li>
-							</ul>
-						</div>
-						<button type="submit" class="see-project-btn">See Project</button>
-					</div>
-					<div class="right-block">
-						<img src="app/static/images/dskt-snapshot.svg" alt="An image depicting printed media" class="card-img">
-					</div>
-				</section>
-
-				<!-- Portfolio card 3 -->
-				<section class="portfolio-card-section">
-					<div class="section-three-bg"></div>
-					<div class="right-block">
-						<img src="app/static/images/dsktp-card.svg" alt="An image depicting a user profile" class="card-img">
-					</div>
-					<div class="left-block">
-						<h3 id="port3-text">Facebook 360</h3>
-						<h3 id="mobile-tonnic">Tonic</h3>
-						<div class="left-frame">
-							<ul class="frame-one">
-								<li class="fb-text">FACEBOOK</li>
-								<li><img src="app/static/images/Counter.svg" alt="A bullet icon image used to highlight words"></li>
-								<li class="left-skill">Full Stack Dev</li>
-								<li><img src="app/static/images/Counter.svg" alt="A bullet icon image used to highlight words"></li>
-								<li class="left-year">2015</li>
-							</ul>
-						</div>
-						<p>
-							Explorings the future of media in Facebook's first Virtual Reality app;
-							a place to discover and enjoy 360 photos and videos on Gear VR.
-						</p>
-						<div class="languages">
-							<ul class="lan-one">
-								<li class="lan-html">html</li>
-								<li class="lan-ruby">Ruby on rails</li>
-								<li class="lan-css">css</li>
-								<li class="lan-js">javascript</li>
-							</ul>
-						</div>
-						<button type="submit" class="see-project-btn">See Project</button>
-					</div>
-				</section>
-
-				<!-- Portfolio card 4 -->
-				<section class="portfolio-card-section">
-					<div class="section-four-bg"></div>
-					<div class="left-block one">
-						<h3 id="uber-nav">Uber Navigation</h3>
-						<h3 id="mobile-story">Multi-Post Stories</h3>
-						<div class="left-frame">
-							<ul class="frame-one">
-								<li id="uber-text">UBER</li>
-								<li id="mobile-cannopy">CANOPY</li>
-								<li></li>
-								<li><img src="app/static/images/Counter.svg" alt="A bullet icon image used to highlight words"></li>
-								<li class="left-skill">Lead Developer</li>
-								<li><img src="app/static/images/Counter.svg" alt="A bullet icon image used to highlight words"></li>
-								<li class="left-year">2018</li>
-							</ul>
-						</div>
-						<p>
-							A smart assistant to make driving more safe, efficient,
-							and fun by unlocking your most expensive computer: your car.
-						</p>
-						<div class="languages">
-							<ul class="lan-one">
-								<li class="lan-html">html</li>
-								<li class="lan-ruby">Ruby on rails</li>
-								<li class="lan-css">css</li>
-								<li class="lan-js">javascript</li>
-							</ul>
-						</div>
-						<button type="submit" class="see-project-btn">See Project</button>
-					</div>
-					<div class="right-block">
-						<img src="app/static/images/dsktp-last-card.svg" alt="An image depicting a user profile" class="card-img">
-					</div>
-				</section>
 			</div>
 			<!-- About me and form section for desktop -->
 			<div id="about">
-				<section class="about-me-section">
+				<section class="about-me-section mobile">
 					<div class="about-me-main">
 						<!--About myself left -->
 						<div class="left-block about">
@@ -255,75 +129,14 @@
 										<h5>Frameworks</h5>
 										<img src="app/static/images/arrow.svg" alt="A bullet icon image used to highlight words" class="arrow-mobile">
 									</li>
-									<li><img class="mobile-sp" src="app/static/images/Separator-Bottom.svg" alt="A bullet icon image used to highlight words"></li>
-									<li><img src="app/static/images/Separator-Bottom-(1).svg" alt="A bullet icon image used to highlight words" id="about-seperator-one"></li>
+									<img class="mobile-sp" src="app/static/images/new-imgs/Separator-Bottom.svg" alt="A bullet icon image used to highlight words" id="arrowmobile1">
+									<img src="app/static/images/Separator-Bottom-(1).svg" alt="A bullet icon image used to highlight words" id="about-seperator-one">
 									<li id="about-skills">
 										<h5>Skills</h5>
 										<img src="app/static/images/arrow.svg" alt="A bullet icon image used to highlight words" class="arrow-mobile">
 									</li>
-									<li><img class="mobile-sp" src="app/static/images/Separator-Bottom.svg" alt="A bullet icon image used to highlight words"></li>
-									<li><img src="app/static/images/Separator-Bottom-(1).svg" alt="A bullet icon image used to highlight words" id="about-seperator-two">
-								</ul>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<!--Mobile about me section -->
-				<section class="section-elements">
-					<div class="section-about">
-						<div class="section-block">
-							<div class="about-me-text">
-								<h1>About <br> Myself</h1>
-							</div>
-							<div class="about-text">
-								<p>I’m a software developer! I can help you build a product ,
-									feature or website Look through some of my work and experience!
-									If you like what you see and have a project you need coded,
-									don’t hestiate to contact me.
-								</p>
-							</div>
-							<div class="social-media">
-								<h2>LET’S CONNECT</h2>
-								<ul class="icons">
-									<li><a href="https://github.com/kennankole"><i class="fa-brands fa-github"></i></a></li>
-									<li><a href="https://www.linkedin.com/in/omondi-kennedy-5359594a/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-									<li><a href="https://github.com/kennankole"><i class="fa-solid fa-hand-peace"></i></a></li>
-									<li><a href="https://twitter.com/KennedyObwombe"><i class="fa-brands fa-twitter"></i></a></li>
-									<li><a href="https://github.com/kennankole"><i class="fa-solid fa-m"></i></a></li>
-								</ul>
-							</div>
-							<div class="section-action">
-								<button id="resume-btn" type="submit">Get my resume</button>
-							</div>
-							<div class="language-lists">
-								<ul class="core-skills">
-									<li class="language-text">
-										<h5>Languages</h5>
-										<img src="app/static/images/Union.svg" alt="drop down icon image">
-									</li>
-									<li class="language js">
-										<img src="app/static/images/js.svg" alt="Javascript logo image">
-										<h5>Javascript</h5>
-									</li>
-									<li class="language html">
-										<img src="app/static/images/html.svg" alt="html logo image">
-										<h5>HTML</h5>
-									</li>
-									<li class="language css">
-										<img src="app/static/images/css.svg" alt="css logo image">
-										<h5>CSS</h5>
-									</li>
-									<li class="framework frame">
-										<h5>Frameworks</h5>
-										<img src="app/static/images/arrow.svg" alt="A bullet icon image used to highlight words">
-									</li>
-									<li><img src="app/static/images/Separator-Bottom.svg" alt="A bullet icon image used to highlight words"></li>
-									<li class="frame-skill skillset">
-										<h5>Skills</h5>
-										<img src="app/static/images/arrow.svg" alt="A bullet icon image used to highlight words">
-									</li>
-									<li><img src="app/static/images/Separator-Bottom.svg" alt="A bullet icon image used to highlight words"></li>
+									<img class="mobile-sp" src="app/static/images/Separator-Bottom.svg" alt="A bullet icon image used to highlight words" id="arrowmobile2">
+									<img src="app/static/images/Separator-Bottom-(1).svg" alt="A bullet icon image used to highlight words" id="about-seperator-two">
 								</ul>
 							</div>
 						</div>
@@ -344,14 +157,16 @@
 								</p>
 							</div>
 							<div class="container-form">
-								<form action="https://formspree.io/f/xpznwqnd" method="POST">
+								<form action="https://formspree.io/f/xpznwqnd" method="POST" id="form">
 									<ul>
 										<li>
 											<input id="name" type="text" placeholder="Full Name" maxlength="30" required>
 										</li>
 										<li>
-											<input id="email" type="email" placeholder="Email Address" maxlength="30" required>
+											<small></small>
+											<input id="email" name="email" type="email" placeholder="Email Address" maxlength="30" required>
 										</li>
+										
 										<li>
 											<textarea id="subject" name="subject" placeholder="Write your message here" maxlength="500"
 												required></textarea>
@@ -361,44 +176,12 @@
 										</li>
 									</ul>
 								</form>
+							<img src="/app/static/images/new-imgs/Shape.svg" alt="" id="downseperator">
 							</div>
-						</div>
-					</div>
-				</section>
-				<!-- Mobile -->
-				<section class="section-elements contact">
-					<div class="contact-form">
-						<div class="form-bg">
-							<div class="form-text-container">
-								<p id="form-title">Contact Me</p>
-								<p id="form-text">If you have an application you are interested in developing,
-									a feature that you need built or a project that needs coding.
-									I’d love to help with it
-								</p>
-							</div>
-							<form action="https://formspree.io/f/xpznwqnd" method="POST">
-								<ul>
-									<li>
-										<input id="names" type="text" placeholder="Full Name" maxlength="30" required>
-									</li>
-									<li>
-										<input id="emails" type="email" placeholder="Email Address" maxlength="30" required>
-									</li>
-									<li>
-										<textarea id="subjects" name="subject" placeholder="Write your message here" maxlength="500"
-											required></textarea>
-									</li>
-									<li>
-										<input id="sends" type="submit" value="Get In Touch  >>">	
-									</li>
-								</ul>
-							</form>
-							<img src="app/static/images/Shape.svg"  alt="A Horizontal line image used to seperate words" class="form-img">
 						</div>
 					</div>
 				</section>
 			</div>
-		</div>
 	</main>
 </body>
 </html>
