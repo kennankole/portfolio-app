@@ -297,14 +297,14 @@ button {
   z-index: 1;
   left: 0;
   top: 0;
+  bottom: 0;
+  right: 0;
   overflow: auto;
   background-color: #fff;
   border: 1px solid #ebecf0;
   box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
   border-radius: 16px;
-
-  /* padding: 0 20px; */
-  margin-left: 75px;
+  margin: auto;
 }
 
 .heading {
@@ -947,8 +947,11 @@ input[type="submit"]:hover::before {
     transition: 0.5s ease-in;
     height: 713px;
     width: 343px;
-    left: 16px;
+    left: 0;
     top: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
     border-radius: 16px;
     padding: 16px;
   }
@@ -1236,4 +1239,18 @@ input[type="submit"]:hover::before {
   #downseperator {
     padding-top: 80px;
   }
+}
+
+small {
+  color: #ff5733;
+  background-color: #f7f7f9;
+  font-size: 12px;
+  font-weight: 900;
+  font-family: Poppins, sans-serif;
+  padding: 5px;
+  transition: 0.5ms;
+  margin-left: 10px;
+  border-radius: 3px;
+  display: none;
+  width: 200px;
 }
