@@ -284,7 +284,7 @@ form.addEventListener('submit', (e) => {
 
 
 function saveUserData(){
-	let data = {
+	const data = {
 		name: localStorage.setItem('Name', fname.value),
 		email: localStorage.setItem("Email", femail.value),
 		message: localStorage.setItem("Message", fmessage.value)
@@ -298,9 +298,9 @@ fmessage.value = localStorage.getItem("Message");
 
 saveUserData();
 
-fname.onchange = saveUserData;
-femail.onchange = saveUserData;
-fmessage.onchange = saveUserData;
+fname.onchange = saveUserData()
+femail.onchange = saveUserData();
+fmessage.onchange = saveUserData();
 
 
 
