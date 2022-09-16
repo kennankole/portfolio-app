@@ -290,7 +290,7 @@ button {
 
 /* +++++++++++++++++++++++++++++Modal detail++++++++++++++++++++++++++ */
 #my-modal {
-    width: 1156px;
+  width: 1156px;
   height: 100%;
   display: none;
   position: fixed;
@@ -386,9 +386,7 @@ button {
   height: 924px;
   background: #fff;
 }
-#mobile-modal-img {
-  padding: 0 15px;
-}
+
 .contact-section {
   background-color: #6070ff;
   border-top-left-radius: 150px;
