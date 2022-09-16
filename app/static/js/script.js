@@ -267,16 +267,40 @@ function loadModalPopup(){
 
 
 const form = document.getElementById('form');
-const email = document.getElementById("email");
+const femail = document.getElementById("email");
+const fname = document.getElementById("name");
+const fmessage = document.getElementById("subject");
 const error = document.querySelector("small");
+
 form.addEventListener('submit', (e) => {
-	if(email.value !== email.value.toLowerCase()){
+	if(femail.value !== femail.value.toLowerCase()){
 		error.innerHTML = "Email should be in lower case";
 		error.style.display = 'block';
 		e.preventDefault();
 	}
 })
 
+// Local Storage 
+
+
+function saveUserData(){
+	let data = {
+		name: localStorage.setItem('Name', fname.value),
+		email: localStorage.setItem("Email", femail.value),
+		message: localStorage.setItem("Message", fmessage.value)
+	};
+	return data;
+}
+
+femail.value = localStorage.getItem("Email");
+fname.value = localStorage.getItem("Name");
+fmessage.value = localStorage.getItem("Message");
+
+saveUserData();
+
+fname.onchange = saveUserData;
+femail.onchange = saveUserData;
+fmessage.onchange = saveUserData;
 
 
 
