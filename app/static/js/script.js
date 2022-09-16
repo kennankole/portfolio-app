@@ -164,7 +164,7 @@ const modalWindow = {
 							remaining essent`,
 	technologies: ["html", "css", "javascript", "github", "ruby", "Bootstrap"],
 	lineImg: "/app/static/images/new-imgs/Vector-4.svg",
-	buttons: [`See live  <img src="/app/static/images/new-imgs/Icon-Export.svg">`, `Source demo <img src="/app/static/images/new-imgs/github.svg">`]
+	buttons: [`See live <img src="/app/static/images/new-imgs/Icon-Export.svg">`, `Source source<img src="/app/static/images/new-imgs/github.svg">`]
 }
 
 
@@ -215,8 +215,8 @@ const mobileMod = `
 				<ul class="tech-list mobile modal">${renderLanguagesLi(portfolioCard.language1)}</ul>
 				</ul>
 				<img src="${modalWindow.lineImg}" alt="seperator image">
-				<div class="demo-btns">
-				<ul class="buttons">
+				<div class="demo-btns mob-modal">
+				<ul class="buttons mob-modal">
 					${renderLanguagesLi(modalWindow.buttons)}
 				<ul>
 				</div>

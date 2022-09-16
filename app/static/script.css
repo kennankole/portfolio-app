@@ -305,7 +305,8 @@ button {
   border: 1px solid #ebecf0;
   box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
   border-radius: 16px;
-  box-sizing: border-box;
+
+  /* box-sizing: border-box; */
 }
 
 #mobile-modal-img {
@@ -343,6 +344,10 @@ button {
   font-size: 16px;
   line-height: 30px;
   color: #344563;
+  padding: 20px;
+}
+
+.technologies {
   padding: 20px;
 }
 
@@ -951,11 +956,12 @@ input[type="submit"]:hover::before {
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
     height: 713px;
+    height: 100%;
     width: 343px;
     left: 0;
     right: 0;
-    top: 60px;
-    bottom: 60px;
+    top: 0;
+    bottom: 0;
     border-radius: 16px;
     padding: 16px;
     transition: 200ms ease-in-out;
@@ -992,6 +998,11 @@ input[type="submit"]:hover::before {
     font-size: 15px;
     line-height: 24px;
     color: #344563;
+  }
+
+  .demo-btns.mob-modal {
+    padding: 0 10px;
+    margin-bottom: 20px;
   }
 
   .buttons {
@@ -1127,6 +1138,26 @@ input[type="submit"]:hover::before {
     color: #253858;
     width: 303px;
     height: 66px;
+  }
+
+  .buttons.mob-modal {
+    gap: 5px;
+    margin: 5px 0;
+    padding-top: 20px;
+  }
+
+  .buttons.mob-modal > li:nth-of-type(2) {
+    gap: 4px;
+    padding: 5px;
+    width: 146px;
+  }
+
+  .buttons.mob-modal > li:nth-of-type(1) {
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    gap: 7px;
+    padding: 5px 15px;
+    width: 100px;
   }
 
   #about-html,
