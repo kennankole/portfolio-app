@@ -164,7 +164,7 @@ const modalWindow = {
 							remaining essent`,
 	technologies: ["html", "css", "javascript", "github", "ruby", "Bootstrap"],
 	lineImg: "/app/static/images/new-imgs/Vector-4.svg",
-	buttons: [`See live  <img src="/app/static/images/new-imgs/Icon-Export.svg">`, `Source demo <img src="/app/static/images/new-imgs/github.svg">`]
+	buttons: [`See live <img src="/app/static/images/new-imgs/Icon-Export.svg">`, `Source source<img src="/app/static/images/new-imgs/github.svg">`]
 }
 
 
@@ -177,10 +177,10 @@ const modals = `
 			<ul class="works-badges">
 				${renderLanguagesLi(portfolioCard.badge1)}
 			</ul>
-			<img src="${modalWindow.modalimage}" alt="background image">
+			<img src="${modalWindow.image}" alt="background image">
 			<div class="bottom-container">
 				<div class="para">
-					<p>${modalWindow.modalmodalPara}</p>
+					<p>${modalWindow.modalPara}</p>
 				</div>
 				<div class="technologies">
 					<ul class="tech-list modal">
@@ -206,7 +206,7 @@ const mobileMod = `
 		<ul class="works-badges mobile modal">
 			${renderLanguagesLi(portfolioCard.badge1)}
 		</ul>
-		<img src="${modalWindow.mobileImage}" alt="background image">
+		<img src="${modalWindow.mobileImage}" alt="background image" id="mobile-modal-img">
 		<div class="bottoms-container">
 			<div class="mob-para modal">
 				<p>${modalWindow.mobilePara}</p>
@@ -215,8 +215,8 @@ const mobileMod = `
 				<ul class="tech-list mobile modal">${renderLanguagesLi(portfolioCard.language1)}</ul>
 				</ul>
 				<img src="${modalWindow.lineImg}" alt="seperator image">
-				<div class="demo-btns">
-				<ul class="buttons">
+				<div class="demo-btns mob-modal">
+				<ul class="buttons mob-modal">
 					${renderLanguagesLi(modalWindow.buttons)}
 				<ul>
 				</div>
@@ -238,8 +238,8 @@ document.getElementById("mobile2").insertAdjacentHTML("beforeend", cardFourMobil
 document.getElementById("mobile3").insertAdjacentHTML("beforeend", cardThreeMobile);
 document.getElementById("mobile4").insertAdjacentHTML("beforeend", cardTwoMobile);
 
-// document.body.innerHTML += mobileMod;
-// document.body.innerHTML += modals;
+document.body.innerHTML += mobileMod;
+document.body.innerHTML += modals;
 
 
 
@@ -264,44 +264,5 @@ function loadModalPopup(){
 		spann.addEventListener("click", closeMobile);
 	}	
 }
-
-
-const form = document.getElementById('form');
-const femail = document.getElementById("email");
-const fname = document.getElementById("name");
-const fmessage = document.getElementById("subject");
-const error = document.querySelector("small");
-
-form.addEventListener('submit', (e) => {
-	if(femail.value !== femail.value.toLowerCase()){
-		error.innerHTML = "Email should be in lower case";
-		error.style.display = 'block';
-		e.preventDefault();
-	}
-})
-
-// Local Storage 
-
-
-function saveUserData(){
-	const data = {
-		name: localStorage.setItem('Name', fname.value),
-		email: localStorage.setItem("Email", femail.value),
-		message: localStorage.setItem("Message", fmessage.value)
-	};
-	return data;
-}
-
-femail.value = localStorage.getItem("Email");
-fname.value = localStorage.getItem("Name");
-fmessage.value = localStorage.getItem("Message");
-
-saveUserData();
-
-fname.onchange = saveUserData
-femail.onchange = saveUserData;
-fmessage.onchange = saveUserData;
-
-
 
 

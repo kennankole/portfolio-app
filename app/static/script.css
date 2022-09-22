@@ -296,15 +296,19 @@ button {
   position: fixed;
   z-index: 1;
   left: 0;
+  right: 0;
   top: 0;
   bottom: 0;
-  right: 0;
+  margin: auto;
   overflow: auto;
   background-color: #fff;
   border: 1px solid #ebecf0;
   box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
   border-radius: 16px;
-  margin: auto;
+}
+
+#mobile-modal-img {
+  padding: 0 15px;
 }
 
 .heading {
@@ -341,12 +345,16 @@ button {
   padding: 20px;
 }
 
+.technologies {
+  padding: 20px;
+}
+
 .tech-list.modal {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
   width: 290px;
-  padding: 0;
+  padding: 0 15px;
 }
 
 .tech-list.modal > li {
@@ -702,14 +710,15 @@ input[type="submit"]:hover::before {
     top: 85px;
     width: 375px;
     z-index: auto;
-    height: 100%;
+    height: 812px;
     background-color: #6070ff;
-    margin-top: -60px;
+    margin-top: -85px;
     text-align: start;
     opacity: 0.8;
     padding: 15px;
     position: fixed;
-    box-sizing: border-box;
+
+    /* box-sizing: border-box; */
   }
 
   .show-menu a {
@@ -944,16 +953,16 @@ input[type="submit"]:hover::before {
     background-color: #fff;
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
-    transition: 0.5s ease-in;
     height: 713px;
     width: 343px;
     left: 0;
+    right: 0;
     top: 0;
     bottom: 0;
-    right: 0;
-    margin: 0 auto;
     border-radius: 16px;
     padding: 16px;
+    transition: 200ms ease-in-out;
+    max-width: 80%;
   }
 
   .works-badges.modal {
@@ -962,17 +971,19 @@ input[type="submit"]:hover::before {
     font-weight: 600;
     font-size: 13px;
     color: #344563;
-    padding: 5px;
+    padding: 15px;
   }
 
   .mob-para.modal {
-    padding: 5px;
+    padding: 15px;
   }
 
   .heading.modal > h1 {
     height: 36px;
-    width: 259px;
-    padding: 25px 5px;
+
+    /* width: 259px; */
+
+    /* padding: 25px 5px; */
   }
 
   .mob-para {
@@ -984,6 +995,11 @@ input[type="submit"]:hover::before {
     font-size: 15px;
     line-height: 24px;
     color: #344563;
+  }
+
+  .demo-btns.mob-modal {
+    padding: 0 10px;
+    margin-bottom: 20px;
   }
 
   .buttons {
@@ -1121,6 +1137,26 @@ input[type="submit"]:hover::before {
     height: 66px;
   }
 
+  .buttons.mob-modal {
+    gap: 5px;
+    margin: 5px 0;
+    padding-top: 20px;
+  }
+
+  .buttons.mob-modal > li:nth-of-type(2) {
+    gap: 4px;
+    padding: 5px;
+    width: 146px;
+  }
+
+  .buttons.mob-modal > li:nth-of-type(1) {
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    gap: 7px;
+    padding: 5px 15px;
+    width: 100px;
+  }
+
   #about-html,
   #about-css,
   #about-js {
@@ -1239,18 +1275,4 @@ input[type="submit"]:hover::before {
   #downseperator {
     padding-top: 80px;
   }
-}
-
-small {
-  color: #ff5733;
-  background-color: #f7f7f9;
-  font-size: 12px;
-  font-weight: 900;
-  font-family: Poppins, sans-serif;
-  padding: 5px;
-  transition: 0.5ms;
-  margin-left: 10px;
-  border-radius: 3px;
-  display: none;
-  width: 200px;
 }
