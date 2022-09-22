@@ -1,14 +1,14 @@
 
 const portfolioCard = {
-	image1: "/app/static/images/new-imgs/dsk-portfolio-card.svg",
-	image2: "/app/static/images/new-imgs/mobile-card-img-3.svg",
-	image3: "/app/static/images/new-imgs/mobile-card-img-1.svg",
-	image4: "/app/static/images/new-imgs/Snapshoot-Portfolio_1.svg",
-	image5: "/app/static/images/new-imgs/mobile-card-img-4.svg",
+	image1: "app/static/images/new-imgs/dsk-portfolio-card.svg",
+	image2: "app/static/images/new-imgs/mobile-card-img-3.svg",
+	image3: "app/static/images/new-imgs/mobile-card-img-1.svg",
+	image4: "app/static/images/new-imgs/Snapshoot-Portfolio_1.svg",
+	image5: "app/static/images/new-imgs/mobile-card-img-4.svg",
 	title: ["Tonic", "Multi-Post Stories", "Facebook 360", "Uber Navigation"],
-	badge1: [`Canopy <img src="/app/static/images/Counter.svg">`, `backend <img src="/app/static/images/Counter.svg">`, 'dev'],
-	badge2: [`Facebook <img src="/app/static/images/Counter.svg">`, `backend <img src="/app/static/images/Counter.svg">`, 'dev'],
-	badge3: [`Uber <img src="/app/static/images/Counter.svg">`, `backend <img src="/app/static/images/Counter.svg">`, 'dev'],
+	badge1: [`Canopy <img src="app/static/images/Counter.svg">`, `backend <img src="app/static/images/Counter.svg">`, 'dev'],
+	badge2: [`Facebook <img src="app/static/images/Counter.svg">`, `backend <img src="app/static/images/Counter.svg">`, 'dev'],
+	badge3: [`Uber <img src="app/static/images/Counter.svg">`, `backend <img src="app/static/images/Counter.svg">`, 'dev'],
 	paragraph: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
 	language1 : ['html', 'css', 'javascript'],
 	language2 : ['html', 'RubyOnRails','css', 'javascript'],
@@ -142,8 +142,8 @@ const cardOneMobile = `
 	</div>
 `;
 const modalWindow = {
-	image: "/app/static/images/new-imgs/modal-img-dsktp.svg",
-	mobileImage: "/app/static/images/new-imgs/mobile-detail-1.svg",
+	image: "app/static/images/new-imgs/modal-img-dsktp.svg",
+	mobileImage: "app/static/images/new-imgs/mobile-detail-1.svg",
 	desktopTitle: "Tonic",
 	modalPara: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
 							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -163,8 +163,8 @@ const modalWindow = {
 							It has survived not only five centuries, but also the leap into electronic typesetting, 
 							remaining essent`,
 	technologies: ["html", "css", "javascript", "github", "ruby", "Bootstrap"],
-	lineImg: "/app/static/images/new-imgs/Vector-4.svg",
-	buttons: [`See live <img src="/app/static/images/new-imgs/Icon-Export.svg">`, `Source source<img src="/app/static/images/new-imgs/github.svg">`]
+	lineImg: "app/static/images/new-imgs/Vector-4.svg",
+	buttons: [`See live <img src="app/static/images/new-imgs/Icon-Export.svg">`, `Source source<img src="app/static/images/new-imgs/github.svg">`]
 }
 
 

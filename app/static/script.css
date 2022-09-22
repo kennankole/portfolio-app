@@ -77,7 +77,7 @@ ul {
 
 /* ++++++++++++++++++++++++++++++++DESKTOP HEADLINE SECTION+++++++++++++++++++++++ */
 .main-background {
-  background-image: url("../static/images/desktop-header-bg.svg");
+  background-image: url("./images/desktop-header-bg.svg");
   width: 1280px;
   min-height: 700px;
 }
@@ -1190,7 +1190,7 @@ input[type="submit"]:hover::before {
   }
 
   .desktop-form-bg-img {
-    background-image: url("../static/images/new-imgs/contact-form-shapes-mobile.svg");
+    background-image: url("./images/new-imgs/contact-form-shapes-mobile.svg");
     background-repeat: no-repeat;
     width: 265px;
     height: 709px;
