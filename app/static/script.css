@@ -3,12 +3,10 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-html,
 body {
-  margin: 0 auto;
-  padding: 0;
   background: #e5e5e5;
   font-family: Poppins, sans-serif;
 }
@@ -28,7 +26,8 @@ header {
 
 nav {
   display: flex;
-  width: 1180px;
+  /* width: 1180px; */
+  width: 100%;
 }
 
 .left a {
@@ -78,8 +77,9 @@ ul {
 /* ++++++++++++++++++++++++++++++++DESKTOP HEADLINE SECTION+++++++++++++++++++++++ */
 .main-background {
   background-image: url("./images/desktop-header-bg.svg");
-  width: 1280px;
+  /* max-width: 1280px; */
   min-height: 700px;
+  background-size: cover;
 }
 
 .main-section {
@@ -89,13 +89,17 @@ ul {
 }
 
 .main-container {
-  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .main-text {
-  grid-column: 3;
-  grid-row: 6;
-  width: 920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .main-text h1 {
@@ -120,13 +124,10 @@ ul {
   font-size: 20px;
   line-height: 28px;
   color: #344563;
-  padding: 10px 30px;
 }
 
 .social-icons {
-  display: flex;
-  align-content: flex-start;
-  flex-direction: column;
+  margin-left: -150px;
   padding: 10px 30px;
 }
 
@@ -141,7 +142,7 @@ ul {
 
 .icons {
   display: flex;
-  max-width: 210px;
+  /* max-width: 210px; */
   align-content: center;
   justify-content: space-evenly;
   gap: 20px;
@@ -649,7 +650,11 @@ input[type="submit"]:hover::before {
   }
 }
 
-/* +++++++++++++++++++++Mobile Version+++++++++++++++++++++++++++++++++ */
+/*##################################################################
+#+++++++++++++++++++++MOBILE VERSION+++++++++++++++++++++++++++++++#
+####################################################################
+*/
+
 @media screen and (max-width: 768px) {
   #card1,
   #card2,
@@ -661,6 +666,7 @@ input[type="submit"]:hover::before {
   main {
     margin: 0 auto;
     width: 375px;
+    width: 100%;
     height: auto;
   }
 
@@ -671,11 +677,6 @@ input[type="submit"]:hover::before {
     justify-content: center;
     align-content: center;
     align-items: center;
-    height: 48px;
-    width: 375px;
-    margin: 0 auto;
-
-    /* border: 1px solid black; */
     box-sizing: border-box;
     padding: 15px 0;
   }
@@ -685,7 +686,6 @@ input[type="submit"]:hover::before {
     align-items: center;
     height: 48px;
     border-radius: 0;
-    width: 375px;
   }
 
   .left a {
@@ -708,7 +708,6 @@ input[type="submit"]:hover::before {
   .show-menu {
     display: block;
     top: 85px;
-    width: 375px;
     z-index: auto;
     height: 812px;
     background-color: #6070ff;
@@ -717,8 +716,6 @@ input[type="submit"]:hover::before {
     opacity: 0.8;
     padding: 15px;
     position: fixed;
-
-    /* box-sizing: border-box; */
   }
 
   .show-menu a {
@@ -765,31 +762,20 @@ input[type="submit"]:hover::before {
     background: #fff;
     border-bottom-left-radius: 70px;
     margin: 0 auto;
-    width: 375px;
     height: 750px;
     margin-bottom: 100px;
   }
 
   .main-background {
-    width: 375px;
-    height: 718px;
     background: url("../static/images/header-shapes-mobile.svg");
     background-repeat: no-repeat;
-    margin: 0 auto;
     box-sizing: border-box;
     margin-bottom: 200px;
+    background-size: cover;
   }
 
-  .main-text {
-    grid-column: 3;
-    grid-row: 6;
-    width: 327px;
-  }
 
   .main-text > h1 {
-    grid-column: 3;
-    grid-row: 6;
-    width: 327px;
     height: 150px;
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -800,21 +786,21 @@ input[type="submit"]:hover::before {
   }
 
   .inner-text {
-    grid-column: 3;
-    grid-row: 10;
-    width: 327px;
-    height: 146px;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #344563;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 327px;
   }
 
   .connect {
-    width: 117px;
-    height: 24px;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
